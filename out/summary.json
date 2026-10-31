@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-31 08:21:55 UTC",
- "checked": 72,
- "ok": 62,
- "residential": 40,
- "datacenter": 21,
+ "generated_at": "2026-10-31 08:50:30 UTC",
+ "checked": 66,
+ "ok": 52,
+ "residential": 27,
+ "datacenter": 24,
  "countries": [
+  "AU",
+  "CA",
   "JP",
   "KR",
-  "RO",
-  "RU",
-  "VN"
+  "RU"
  ],
- "median_mbps": 0.91
+ "median_mbps": 0.97
 }
