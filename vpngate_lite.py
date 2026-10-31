@@ -753,6 +753,27 @@ def build_outputs(results, edge_pool, out_dir):
     return stats, lines
 
 
+def load_edge_pool(explicit):
+    """入口池优先级: --edge 参数 > edge_hosts.txt(脚本同目录) > 内置默认池。
+    文件每行一个入口, 支持 # 注释; 缺端口默认 443。"""
+    if explicit:
+        return [e.strip() for e in explicit.split(',') if e.strip()], '--edge 参数'
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(here, 'edge_hosts.txt')
+    if os.path.exists(path):
+        pool = []
+        for ln in open(path, encoding='utf-8'):
+            ln = ln.split('#', 1)[0].strip()
+            if not ln:
+                continue
+            if ':' not in ln:
+                ln += ':443'
+            pool.append(ln)
+        if pool:
+            return pool, 'edge_hosts.txt'
+    return list(DEFAULT_EDGE_POOL), '内置默认池'
+
+
 def main():
     ap = argparse.ArgumentParser(description='VPN Gate SSTP probe -> edgetunnel chain format')
     ap.add_argument('--proxy', default='', help='HTTP 代理 (本机跑必填, 如 http://127.0.0.1:7897)')
@@ -778,7 +799,8 @@ def main():
     rows = rows[:args.max]
     log('[plan] 将探测 %d 个, 并发 %d' % (len(rows), args.concurrency))
 
-    edge_pool = [e.strip() for e in args.edge.split(',') if e.strip()] or DEFAULT_EDGE_POOL
+    edge_pool, edge_src = load_edge_pool(args.edge)
+    log('[edge] 入口池: %d 个 (来源: %s)' % (len(edge_pool), edge_src))
 
     results = []
     done = [0]
