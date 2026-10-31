@@ -30,7 +30,7 @@ import threading
 import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
 from urllib.request import Request, build_opener, ProxyHandler, urlopen
 
@@ -44,6 +44,8 @@ INFO_URL = 'http://ip-api.com/json/?fields=status,query,country,countryCode,city
 SPEED_URLS = ['https://speed.cloudflare.com/__down?bytes=1000000',
               'http://ipv4.download.thinkbroadband.com/1MB.zip']
 SPEED_BYTES = 1_000_000
+UP_URL = 'https://speed.cloudflare.com/__up'
+UP_BYTES = 1_000_000
 
 DEFAULT_EDGE_POOL = ['saas.sin.fan:443', 'cdn.204910.best:443', 'www.mfyx.cn:443',
                      'p.etime.vip:443', 'cdn.ctn32.us.kg:443', 'spring.io:443']
@@ -61,10 +63,9 @@ COUNTRY_ZH = {
     'GE': '格鲁吉亚', 'KZ': '哈萨克斯坦', 'AM': '亚美尼亚', 'BY': '白俄罗斯', 'CN': '中国',
 }
 
-_ipapi_lock = threading.Lock()
-_ipapi_last = [0.0]
-
 _print_lock = threading.Lock()
+
+UP_BODY = os.urandom(UP_BYTES)  # 上传测速用随机负载，进程内只生成一次
 
 
 def log(msg):
@@ -425,6 +426,8 @@ class Sstp(object):
 # ---------------------------------------------------------------------------
 
 class MiniTcp(object):
+    MSS = 1400  # PPP MRU 1500 内：IP20 + TCP20 + 载荷 1400
+
     def __init__(self, cli, src_ip, dst_ip, dport, timeout):
         self.cli = cli
         self.src = src_ip
@@ -434,13 +437,18 @@ class MiniTcp(object):
         self.seq = random.getrandbits(32)
         self.ack = 0
         self.deadline = time.time() + timeout
+        self.server_ack = 0
+        self.peer_window = 65535
+
+    def unacked(self):
+        return (self.seq - self.server_ack) & 0xFFFFFFFF
 
     def _send(self, flags, payload=b''):
         pkt = ip_tcp_packet(self.src, self.dst, self.sport, self.dport, self.seq, self.ack, flags, payload)
         self.cli.tls.sendall(sstp_data_frame(b'\x00\x21' + pkt))
 
     def collect(self):
-        """返回 (flags, peer_seq, payload)；只挑本连接的 TCP 数据包。"""
+        """返回 (flags, peer_seq, payload)；只挑本连接的 TCP 数据包，顺带跟踪对端 ACK/窗口。"""
         while True:
             is_ctrl, body = self.cli.recv_packet(self.deadline)
             if is_ctrl:
@@ -466,6 +474,8 @@ class MiniTcp(object):
             if sport != self.dport or dport != self.sport:
                 continue
             seq = struct.unpack('>I', tcp[4:8])[0]
+            self.server_ack = struct.unpack('>I', tcp[8:12])[0]
+            self.peer_window = max(struct.unpack('>H', tcp[14:16])[0], self.peer_window)
             flags = tcp[13]
             payload = tcp[(tcp[12] >> 4) * 4:]
             return flags, seq, payload
@@ -482,9 +492,26 @@ class MiniTcp(object):
                 return
         raise SstpFail('PPP TCP connect timeout')
 
+    def send_all(self, data):
+        """大负载分片成 MSS 的 IP 包发送，尊重对端窗口（简单流控）。"""
+        view = memoryview(data)
+        while view:
+            while self.unacked() >= max(self.peer_window, 1):
+                if time.time() > self.deadline:
+                    raise SstpFail('send stalled (flow control)')
+                flags, pseq, payload = self.collect()
+                if payload:
+                    self.ack = (pseq + len(payload)) & 0xFFFFFFFF
+                    self._send(0x10)
+                if flags & 0x01:
+                    raise SstpFail('connection closed during send')
+            n = min(self.MSS, len(view))
+            self._send(0x18, bytes(view[:n]))
+            self.seq = (self.seq + n) & 0xFFFFFFFF
+            view = view[n:]
+
     def send_request(self, data):
-        self._send(0x18, data)
-        self.seq = (self.seq + len(data)) & 0xFFFFFFFF
+        self.send_all(data)
 
     def read_until_close(self, max_bytes=4_000_000):
         raw = b''
@@ -530,7 +557,7 @@ class TunnelTLS(object):
     def _pump_out(self):
         data = self.out_bio.read()
         if data:
-            self.mt.sendall(data)
+            self.mt.send_all(data)
 
     def handshake(self, deadline):
         while True:
@@ -551,7 +578,11 @@ class TunnelTLS(object):
 
     def sendall(self, data):
         self.obj.write(data)
-        self._pump_out()
+        while self.out_bio.pending:
+            chunk = self.out_bio.read(16384)
+            if not chunk:
+                break
+            self.mt.send_all(chunk)
 
     def read(self, n=65536, deadline=None):
         while True:
@@ -595,6 +626,42 @@ def https_get_over_ppp(cli, src_ip, url, timeout, max_bytes):
     return head, body, elapsed
 
 
+def upload_over_ppp(cli, src_ip, body, timeout=20):
+    """隧道内 POST 大负载到 Cloudflare __up，测节点上行带宽。"""
+    u = urlparse(UP_URL)
+    ip = socket.gethostbyname(u.hostname)
+    mt = MiniTcp(cli, src_ip, ip, 443, timeout)
+    mt.connect()
+    tt = TunnelTLS(mt, u.hostname)
+    tt.handshake(time.time() + timeout)
+    req = ('POST /__up HTTP/1.1\r\nHost: %s\r\nUser-Agent: vpngate-lite\r\n'
+           'Content-Type: application/octet-stream\r\nContent-Length: %d\r\n'
+           'Connection: close\r\n\r\n' % (u.hostname, len(body)))
+    t0 = time.perf_counter()
+    tt.sendall(req.encode() + body)
+    t_sent = time.perf_counter()
+    raw = b''
+    while time.perf_counter() - t0 < timeout:
+        try:
+            chunk = tt.read(65536, deadline=min(time.time() + 5, mt.deadline))
+        except SstpFail:
+            break
+        if not chunk:
+            break
+        if not raw:
+            raw = chunk
+        if b'\r\n\r\n' in raw:
+            head, _, rest = raw.partition(b'\r\n\r\n')
+            m = re.search(rb'Content-Length:\s*(\d+)', head, re.I)
+            need = int(m.group(1)) if m else 0
+            if len(rest) >= need:
+                break
+    head, _, _ = raw.partition(b'\r\n\r\n')
+    if not raw.startswith(b'HTTP/1.1 2'):
+        raise SstpFail('upload rejected: ' + raw[:40].decode('latin1', 'replace'))
+    return round(len(body) * 8 / max(t_sent - t0, 1e-6) / 1e6, 2)
+
+
 def http_over_ppp(cli, src_ip, url, timeout, max_bytes):
     u = urlparse(url)
     ip = socket.gethostbyname(u.hostname)
@@ -614,22 +681,14 @@ def http_over_ppp(cli, src_ip, url, timeout, max_bytes):
     return head, body, clen, elapsed
 
 
-def ipapi_rate_limit():
-    with _ipapi_lock:
-        wait = 1.5 - (time.time() - _ipapi_last[0])
-        if wait > 0:
-            time.sleep(wait)
-        _ipapi_last[0] = time.time()
-
-
 # ---------------------------------------------------------------------------
 # 单节点探测
 # ---------------------------------------------------------------------------
 
 def probe_node(cand, args):
     r = {'host': cand['host'], 'port': cand['port'], 'code': cand['code'], 'country': cand['country'],
-         'ok': False, 'stage': '', 'error': '', 'latency_ms': None, 'mbps': None, 'speed_src': '',
-         'exit_ip': '', 'isp': '', 'city': '', 'tag': ''}
+         'ok': False, 'stage': '', 'error': '', 'latency_ms': None, 'mbps': None, 'up_mbps': None,
+         'speed_src': '', 'exit_ip': '', 'isp': '', 'city': '', 'tag': '', 'streak': 0}
     t0 = time.time()
     sock = None
     tls = None
@@ -658,7 +717,6 @@ def probe_node(cand, args):
 
     if not args.no_info:
         try:
-            ipapi_rate_limit()
             head, body, _, _ = http_over_ppp(cli, src_ip, INFO_URL, 15, 100_000)
             j = json.loads(body.decode('utf-8', 'replace').strip() or '{}')
             if j.get('status') == 'success':
@@ -688,6 +746,13 @@ def probe_node(cand, args):
                 r['stage'] = r['stage'] or 'speed'
                 r['error'] = r['error'] or short_err(e)
 
+    if not args.no_up:
+        try:
+            r['up_mbps'] = upload_over_ppp(cli, src_ip, UP_BODY, 20)
+        except Exception as e:
+            r['stage'] = r['stage'] or 'up'
+            r['error'] = r['error'] or short_err(e)
+
     r['ok'] = True
     try:
         tls.close()
@@ -706,9 +771,9 @@ def build_outputs(results, edge_pool, out_dir, include_dc=False):
     dc_found = [r for r in ok_all if r['tag'] == 'dc']
     # 默认排除机房节点; report.csv 仍保留全量供审计
     ok = ok_all if include_dc else [r for r in ok_all if r['tag'] != 'dc']
-    # 排序: 住宅优先 -> mbps 降序 -> 延迟升序
+    # 排序: 稳定优先 -> 住宅优先 -> mbps 降序 -> 延迟升序
     def sort_key(r):
-        return (0 if r['tag'] != 'dc' else 1, -(r['mbps'] or 0), r['latency_ms'] or 99999)
+        return (0 if r['tag'] != 'dc' else 1, -r.get('streak', 0), -(r['mbps'] or 0), r['latency_ms'] or 99999)
     ok.sort(key=sort_key)
 
     # 按国家分组（数量多的国家靠前），组内按 tag+速度
@@ -726,35 +791,55 @@ def build_outputs(results, edge_pool, out_dir, include_dc=False):
         code = r['code'] or '??'
         zh = COUNTRY_ZH.get(code, code)
         tag = {'home': '住宅', 'dc': '机房'}.get(r['tag'], '节点')
-        counter[(code, tag)] = counter.get((code, tag), 0) + 1
-        name = '%s-%s-%02d' % (zh, tag, counter[(code, tag)])
+        stable = '-稳' if r.get('streak', 0) >= 2 else ''
+        counter[(code, tag, stable)] = counter.get((code, tag, stable), 0) + 1
+        name = '%s-%s%s-%02d' % (zh, tag, stable, counter[(code, tag, stable)])
         entry = edge_pool[i % len(edge_pool)]
         lines.append('%s#%s$sstp://vpn:vpn@%s:%d' % (entry, name, r['host'], r['port']))
 
     with open(os.path.join(out_dir, 'nodes.txt'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(lines) + ('\n' if lines else ''))
 
-    fields = ['host', 'port', 'code', 'country', 'ok', 'tag', 'mbps', 'speed_src', 'latency_ms',
-              'exit_ip', 'isp', 'city', 'stage', 'error']
+    fields = ['host', 'port', 'code', 'country', 'ok', 'tag', 'streak', 'mbps', 'up_mbps', 'speed_src',
+              'latency_ms', 'exit_ip', 'isp', 'city', 'stage', 'error']
     with open(os.path.join(out_dir, 'report.csv'), 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         for r in sorted(results, key=lambda x: (not x['ok'], x['code'], x['host'])):
             w.writerow(r)
 
+    up_vals = sorted([r['up_mbps'] for r in ok if r['up_mbps'] is not None])
     stats = {
         'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'),
         'checked': len(results), 'ok': len(ok),
         'residential': sum(1 for r in ok if r['tag'] == 'home'),
         'datacenter': sum(1 for r in ok if r['tag'] == 'dc'),
         'dc_excluded': (len(dc_found) if not include_dc else 0),
+        'stable': sum(1 for r in ok if r.get('streak', 0) >= 2),
         'countries': sorted({r['code'] for r in ok}),
         'median_mbps': (sorted([r['mbps'] for r in ok if r['mbps'] is not None])[len([r for r in ok if r['mbps'] is not None]) // 2]
                         if any(r['mbps'] is not None for r in ok) else None),
+        'median_up': (up_vals[len(up_vals) // 2] if up_vals else None),
     }
     with open(os.path.join(out_dir, 'summary.json'), 'w', encoding='utf-8') as f:
         json.dump(stats, f, ensure_ascii=False, indent=1)
     return stats, lines
+
+
+def load_state(path):
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_state(path, st):
+    d = os.path.dirname(path)
+    if d:
+        os.makedirs(d, exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(st, f, ensure_ascii=False)
 
 
 def load_edge_pool(explicit):
@@ -790,7 +875,12 @@ def main():
     ap.add_argument('--include-official', action='store_true', help='包含官方机房 (默认排除)')
     ap.add_argument('--no-info', action='store_true', help='跳过出口 IP 查询 (更快)')
     ap.add_argument('--no-speed', action='store_true', help='跳过测速 (更快)')
+    ap.add_argument('--no-up', action='store_true', help='跳过上传测速 (更快)')
     args = ap.parse_args()
+
+    state_path = os.path.join(args.out, 'state.json')
+    state = load_state(state_path)
+    log('[state] 记忆节点 %d 个' % len(state))
 
     text = fetch_api(args.proxy)
     rows = parse_rows(text, include_official=args.include_official)
@@ -802,7 +892,18 @@ def main():
         log('[parse] 国家过滤后 %d 个' % len(rows))
     rows.sort(key=lambda r: r['ping'])
     rows = rows[:args.max]
-    log('[plan] 将探测 %d 个, 并发 %d' % (len(rows), args.concurrency))
+
+    # 存活记忆: 上轮活着的、不在本轮 API 名单里的节点，补进候选（按存活轮数降序）
+    rows_keys = {'%s:%d' % (r['host'].lower(), r['port']) for r in rows}
+    extras = []
+    for k, v in sorted(state.items(), key=lambda kv: -kv[1].get('streak', 0)):
+        if v.get('streak', 0) < 1 or k in rows_keys:
+            continue
+        h, _, p = k.rpartition(':')
+        extras.append({'host': h, 'port': int(p), 'code': v.get('code', '?'),
+                       'country': v.get('country', '?'), 'ping': 0})
+    rows = rows + extras
+    log('[plan] 将探测 %d 个 (API %d + 记忆 %d), 并发 %d' % (len(rows), len(rows) - len(extras), len(extras), args.concurrency))
 
     edge_pool, edge_src = load_edge_pool(args.edge)
     log('[edge] 入口池: %d 个 (来源: %s)' % (len(edge_pool), edge_src))
@@ -818,14 +919,46 @@ def main():
                 c = futs[fut]
                 r = {'host': c['host'], 'port': c['port'], 'code': c['code'], 'country': c['country'],
                      'ok': False, 'stage': 'internal', 'error': short_err(e), 'latency_ms': None,
-                     'mbps': None, 'exit_ip': '', 'isp': '', 'city': '', 'tag': ''}
+                     'mbps': None, 'up_mbps': None, 'exit_ip': '', 'isp': '', 'city': '', 'tag': '',
+                     'streak': 0}
             results.append(r)
             done[0] += 1
             okn = sum(1 for x in results if x['ok'])
             log('[%3d/%3d] %-4s %-30s:%-5d %s %s' % (
                 done[0], len(rows), r['code'], r['host'], r['port'],
-                'OK ' + ('%sms' % r['latency_ms'] if r['latency_ms'] else '') + (' %.1fMbps' % r['mbps'] if r['mbps'] else ''),
+                'OK ' + ('%sms' % r['latency_ms'] if r['latency_ms'] else '')
+                + (' ↓%.1f' % r['mbps'] if r['mbps'] else '')
+                + (' ↑%.1f' % r['up_mbps'] if r['up_mbps'] else '')
+                + (' 稳x%d' % r['streak'] if r.get('streak', 0) >= 2 else ''),
                 ('fail@' + r['stage'] + ' ' + r['error']) if not r['ok'] else ''))
+
+    # 更新存活记忆: 本轮探测过的节点, 活着 streak+1, 挂了清零; 没探测到的保持原状
+    now = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    for r in results:
+        k = '%s:%d' % (r['host'].lower(), r['port'])
+        if r['ok']:
+            v = state.get(k, {})
+            state[k] = {'streak': v.get('streak', 0) + 1,
+                        'mbps': r['mbps'] if r['mbps'] is not None else v.get('mbps'),
+                        'up': r['up_mbps'] if r['up_mbps'] is not None else v.get('up'),
+                        'code': r['code'], 'country': r['country'], 'last': now}
+        elif k in state:
+            state[k]['streak'] = 0
+            state[k]['last'] = now
+    stale_cut = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d')
+    stale = [k for k, v in state.items() if v.get('last', '9999') < stale_cut]
+    for k in stale:
+        del state[k]
+    for k in stale:
+        del state[k]
+    save_state(state_path, state)
+    log('[state] 记忆已保存: %d 个节点 (存活 streak>=1: %d)' % (
+        len(state), sum(1 for v in state.values() if v.get('streak', 0) >= 1)))
+
+    # 把更新后的 streak 回填到结果（供排序与「稳」命名）
+    for r in results:
+        k = '%s:%d' % (r['host'].lower(), r['port'])
+        r['streak'] = state.get(k, {}).get('streak', 0) if r['ok'] else 0
 
     stats, lines = build_outputs(results, edge_pool, args.out, include_dc=args.include_dc)
     log('')
