@@ -1,0 +1,40 @@
+name: vpngate-lite probe
+
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vpngate-lite
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Probe VPN Gate nodes (SSTP handshake + speed)
+        run: |
+          python vpngate_lite.py --out out --concurrency 6
+
+      - name: Commit results
+        run: |
+          git config user.name  "vpngate-lite-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/
+          if git diff --cached --quiet; then
+            echo "no changes, skip commit"
+          else
+            git commit -m "probe $(date -u '+%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
