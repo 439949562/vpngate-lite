@@ -1,77 +1,72 @@
 host,port,code,country,ok,tag,mbps,speed_src,latency_ms,exit_ip,isp,city,stage,error
-vpn970023981.opengw.net,1346,AU,Australia,True,dc,0.65,ipv4.download.thinkbroadband.com,3238,61.69.7.98,AAPT Limited,Sydney,speed,'MiniTcp' object has no attribute 'sendall'
-diamondgnd.opengw.net,443,GD,Grenada,True,dc,1.2,ipv4.download.thinkbroadband.com,2261,74.122.88.200,Columbus Communications Grenada Ltd.,Grenville,speed,'MiniTcp' object has no attribute 'sendall'
-vpn188811855.opengw.net,1891,JP,Japan,True,dc,0.94,ipv4.download.thinkbroadband.com,2261,126.88.122.179,SoftBank Corp.,Minato,speed,'MiniTcp' object has no attribute 'sendall'
-vpn209083224.opengw.net,1737,JP,Japan,True,dc,0.84,ipv4.download.thinkbroadband.com,2760,124.211.71.145,DION (KDDI CORPORATION),Fukuokamachi-minojima,speed,'MiniTcp' object has no attribute 'sendall'
-vpn279963103.opengw.net,1623,JP,Japan,True,dc,0.88,ipv4.download.thinkbroadband.com,3001,211.124.20.64,"JCOM Co., Ltd.",Osaka,speed,'MiniTcp' object has no attribute 'sendall'
-vpn311904526.opengw.net,1377,JP,Japan,True,dc,0.9,ipv4.download.thinkbroadband.com,2770,60.122.72.195,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
-vpn347142471.opengw.net,1776,JP,Japan,True,dc,0.93,ipv4.download.thinkbroadband.com,2811,60.100.18.240,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
-vpn412777836.opengw.net,1945,JP,Japan,True,dc,0.9,ipv4.download.thinkbroadband.com,2871,126.145.104.23,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
-vpn413896691.opengw.net,1472,JP,Japan,True,dc,0.93,ipv4.download.thinkbroadband.com,2225,59.129.41.98,Kddi Corporation,Kokubunji,speed,'MiniTcp' object has no attribute 'sendall'
-vpn424009077.opengw.net,1568,JP,Japan,True,home,0.86,ipv4.download.thinkbroadband.com,3006,223.133.187.14,So-net Entertainment Corporation,Nagoya,speed,'MiniTcp' object has no attribute 'sendall'
-vpn441776892.opengw.net,1580,JP,Japan,True,dc,0.9,ipv4.download.thinkbroadband.com,2489,153.176.196.239,NTT Communications Corporation,Okayama,speed,'MiniTcp' object has no attribute 'sendall'
-vpn454701555.opengw.net,1990,JP,Japan,True,home,0.98,ipv4.download.thinkbroadband.com,2702,61.45.85.226,NTT-ME Corporation,Koshigaya,speed,'MiniTcp' object has no attribute 'sendall'
-vpn478249630.opengw.net,1296,JP,Japan,True,home,2.4,ipv4.download.thinkbroadband.com,2737,126.145.216.246,SoftBank Corp.,Konan,speed,'MiniTcp' object has no attribute 'sendall'
-vpn500270442.opengw.net,1361,JP,Japan,True,dc,0.62,ipv4.download.thinkbroadband.com,3060,121.109.224.163,Kddi Corporation,Hikonari,speed,'MiniTcp' object has no attribute 'sendall'
-vpn500462083.opengw.net,1754,JP,Japan,True,home,0.93,ipv4.download.thinkbroadband.com,2881,106.179.195.53,Kddi Corporation,Ichikawa,speed,'MiniTcp' object has no attribute 'sendall'
-vpn525742377.opengw.net,1511,JP,Japan,True,dc,0.97,ipv4.download.thinkbroadband.com,2746,153.185.220.222,NTT Communications Corporation,Matsumoto,speed,'MiniTcp' object has no attribute 'sendall'
-vpn534120936.opengw.net,1998,JP,Japan,True,dc,0.92,ipv4.download.thinkbroadband.com,2911,106.161.34.210,Kddi Corporation,Shiraitodai,speed,'MiniTcp' object has no attribute 'sendall'
-vpn540913720.opengw.net,1560,JP,Japan,True,home,0.88,ipv4.download.thinkbroadband.com,2780,110.134.135.217,"JCOM Co., Ltd.",Tokiwa,speed,'MiniTcp' object has no attribute 'sendall'
-vpn543986594.opengw.net,1787,JP,Japan,True,dc,0.93,ipv4.download.thinkbroadband.com,2929,60.32.80.192,NTT Communications Corporation,Tokyo,speed,'MiniTcp' object has no attribute 'sendall'
-vpn549204742.opengw.net,1538,JP,Japan,True,home,0.89,ipv4.download.thinkbroadband.com,2782,115.162.122.158,Sony Network Communications Inc,Ōmiya,speed,'MiniTcp' object has no attribute 'sendall'
-vpn559198341.opengw.net,1445,JP,Japan,True,dc,0.92,ipv4.download.thinkbroadband.com,2755,61.86.88.175,"Kintetsu Cable Network Co., Ltd.",Takatsukadai,speed,'MiniTcp' object has no attribute 'sendall'
-vpn567810523.opengw.net,1239,JP,Japan,True,dc,0.86,ipv4.download.thinkbroadband.com,2787,60.138.10.206,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
-vpn582749252.opengw.net,1558,JP,Japan,True,dc,0.86,ipv4.download.thinkbroadband.com,2938,118.158.49.173,DION (KDDI CORPORATION),Hōyachō,speed,'MiniTcp' object has no attribute 'sendall'
-vpn598694915.opengw.net,1377,JP,Japan,True,home,0.89,ipv4.download.thinkbroadband.com,2732,182.21.249.148,TOKAI Communications Corporation,Hamamatsu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn667739311.opengw.net,995,JP,Japan,True,home,0.79,ipv4.download.thinkbroadband.com,2731,119.173.154.203,"JCOM Co., Ltd.",Shakujiimachi,speed,'MiniTcp' object has no attribute 'sendall'
-vpn840828825.opengw.net,1570,JP,Japan,True,dc,0.86,ipv4.download.thinkbroadband.com,2791,42.146.135.174,"JCOM Co., Ltd.",Asagayakita,speed,'MiniTcp' object has no attribute 'sendall'
-vpn873672178.opengw.net,1629,JP,Japan,True,home,0.98,ipv4.download.thinkbroadband.com,2872,14.133.224.200,"Chubu Telecommunications Company, Inc.",Nagoya,speed,'MiniTcp' object has no attribute 'sendall'
-vpn890321947.opengw.net,1630,JP,Japan,True,dc,0.93,ipv4.download.thinkbroadband.com,2723,60.121.199.9,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
-vpn902757225.opengw.net,1678,JP,Japan,True,dc,0.88,ipv4.download.thinkbroadband.com,2844,60.110.69.169,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
-vpn925781152.opengw.net,1257,JP,Japan,True,home,0.92,ipv4.download.thinkbroadband.com,2756,219.211.238.12,SoftBank Corp.,Minato,speed,'MiniTcp' object has no attribute 'sendall'
-vpn975520107.opengw.net,1929,JP,Japan,True,dc,0.96,ipv4.download.thinkbroadband.com,2880,101.142.46.106,OPTAGE Inc.,Akashi,speed,'MiniTcp' object has no attribute 'sendall'
-vpn150606634.opengw.net,1506,KR,Korea Republic of,True,home,2.08,ipv4.download.thinkbroadband.com,2903,116.34.55.195,LG POWERCOMM,Jongno-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn152676450.opengw.net,1393,KR,Korea Republic of,True,dc,0.82,ipv4.download.thinkbroadband.com,2844,211.230.230.201,Korea Telecom,Okcheon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn153644369.opengw.net,995,KR,Korea Republic of,True,home,,,2778,222.99.81.244,Korea Telecom,Gunpo,speed,'MiniTcp' object has no attribute 'sendall'
-vpn186876378.opengw.net,1645,KR,Korea Republic of,True,dc,0.86,ipv4.download.thinkbroadband.com,2847,175.195.205.200,Korea Telecom,Hwaseong-si,speed,'MiniTcp' object has no attribute 'sendall'
-vpn198210011.opengw.net,995,KR,Korea Republic of,True,home,0.85,ipv4.download.thinkbroadband.com,3017,221.167.195.70,Korea Telecom,Songpa-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn278171276.opengw.net,1517,KR,Korea Republic of,True,home,0.91,ipv4.download.thinkbroadband.com,3103,211.200.120.210,SK Broadband Co Ltd,Seongnam-si,speed,'MiniTcp' object has no attribute 'sendall'
-vpn295649515.opengw.net,1612,KR,Korea Republic of,True,home,0.9,ipv4.download.thinkbroadband.com,2851,59.26.41.201,Korea Telecom,Yeonsu-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn436881174.opengw.net,995,KR,Korea Republic of,True,home,0.95,ipv4.download.thinkbroadband.com,2872,58.232.223.51,SK Broadband Co Ltd,Gangnam-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn495860126.opengw.net,1227,KR,Korea Republic of,True,dc,0.82,ipv4.download.thinkbroadband.com,2823,119.196.135.141,Korea Telecom,Incheon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn538532385.opengw.net,995,KR,Korea Republic of,True,home,,,2861,14.47.68.28,Korea Telecom,Suwon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn564106646.opengw.net,1980,KR,Korea Republic of,True,dc,2.17,ipv4.download.thinkbroadband.com,2882,123.143.79.15,LG DACOM Corporation,Hwaseong-si,speed,'MiniTcp' object has no attribute 'sendall'
-vpn629152791.opengw.net,995,KR,Korea Republic of,True,home,,,3157,121.170.32.182,Korea Telecom,Ansan-si,speed,'MiniTcp' object has no attribute 'sendall'
-vpn648203125.opengw.net,995,KR,Korea Republic of,True,home,0.72,ipv4.download.thinkbroadband.com,3027,211.185.5.123,Korea Telecom,Gyeonggi-do,speed,'MiniTcp' object has no attribute 'sendall'
-vpn660300968.opengw.net,995,KR,Korea Republic of,True,home,0.96,ipv4.download.thinkbroadband.com,2387,211.109.119.190,SK Broadband Co Ltd,Seoul,speed,'MiniTcp' object has no attribute 'sendall'
-vpn669289757.opengw.net,995,KR,Korea Republic of,True,home,,,3052,175.193.38.127,Korea Telecom,Gwangjin-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn676945411.opengw.net,1236,KR,Korea Republic of,True,dc,0.73,ipv4.download.thinkbroadband.com,2918,182.226.193.209,LG POWERCOMM,Suwon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn756339455.opengw.net,1341,KR,Korea Republic of,True,dc,0.5,ipv4.download.thinkbroadband.com,2905,1.248.235.117,SK Broadband Co Ltd,Seongbuk-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn780412633.opengw.net,1232,KR,Korea Republic of,True,dc,,,2854,183.97.153.219,Korea Telecom,Goyang-si,speed,'MiniTcp' object has no attribute 'sendall'
-vpn812677596.opengw.net,995,KR,Korea Republic of,True,dc,,,2868,119.195.27.197,KORNET,Changwon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn817450596.opengw.net,995,KR,Korea Republic of,True,home,,,2855,14.50.44.51,Korea Telecom,Gongju,speed,'MiniTcp' object has no attribute 'sendall'
-vpn820372835.opengw.net,995,KR,Korea Republic of,True,home,0.9,ipv4.download.thinkbroadband.com,2918,61.101.127.24,SK Broadband Co Ltd,Suwon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn900163392.opengw.net,1436,KR,Korea Republic of,True,dc,0.88,ipv4.download.thinkbroadband.com,3028,58.239.39.35,SK Broadband Co Ltd,Seodaemun-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn915688854.opengw.net,1929,KR,Korea Republic of,True,home,,,2869,121.149.221.10,Korea Telecom,Suncheon,speed,'MiniTcp' object has no attribute 'sendall'
-vpn916299088.opengw.net,995,KR,Korea Republic of,True,home,,,2955,218.152.3.95,Korea Telecom,Seongbuk-gu,speed,'MiniTcp' object has no attribute 'sendall'
-vpn917497474.opengw.net,1535,KR,Korea Republic of,True,home,0.86,ipv4.download.thinkbroadband.com,2878,120.29.134.202,CMBKWANGJUNET,Masan,speed,'MiniTcp' object has no attribute 'sendall'
-vpn983328577.opengw.net,1499,KR,Korea Republic of,True,dc,,,3026,220.123.89.153,Korea Telecom,Yuseong-gu,speed,'MiniTcp' object has no attribute 'sendall'
-opengw.opengw.net,443,RO,Romania,True,dc,1.28,ipv4.download.thinkbroadband.com,3020,187.15.135.97,GSL Networks Pty LTD,Tokyo,speed,'MiniTcp' object has no attribute 'sendall'
-vpn389947182.opengw.net,1654,RU,Russian Federation,True,home,,,3849,31.162.78.84,Rostelecom networks,Novoural'sk,speed,'MiniTcp' object has no attribute 'sendall'
-vpn944356286.opengw.net,1205,RU,Russian Federation,True,home,,,3248,77.82.17.106,Rostelecom Khabarovsk branch,Khabarovsk,speed,'MiniTcp' object has no attribute 'sendall'
-vpn454753645.opengw.net,1838,SA,Saudi Arabia,True,home,,,3609,176.45.176.5,Saudinet,Riyadh,speed,'MiniTcp' object has no attribute 'sendall'
-vpn868811864.opengw.net,1471,TH,Thailand,True,home,0.54,ipv4.download.thinkbroadband.com,3602,171.4.224.134,TRIPLETNET,Chiang Mai,speed,'MiniTcp' object has no attribute 'sendall'
-vpn693772556.opengw.net,1818,US,United States,True,dc,1.5,ipv4.download.thinkbroadband.com,2180,169.197.146.173,ITV-3,Champaign,speed,'MiniTcp' object has no attribute 'sendall'
-vpn261703031.opengw.net,1730,VN,Viet Nam,True,home,,,5172,42.113.255.36,FPT Telecom Company,Hanoi,speed,'MiniTcp' object has no attribute 'sendall'
-vpn674206607.opengw.net,1874,GB,United Kingdom,False,,,,,,,,tcp,timed out
+vpn491348575.opengw.net,1697,CA,Canada,True,dc,1.59,ipv4.download.thinkbroadband.com,1917,184.68.30.116,Shaw Communications,Vancouver,speed,'MiniTcp' object has no attribute 'sendall'
+laud.opengw.net,443,JP,Japan,True,dc,1.98,ipv4.download.thinkbroadband.com,2478,187.15.135.235,GSL Networks Pty LTD,Tokyo,speed,'MiniTcp' object has no attribute 'sendall'
+vpn100999266.opengw.net,1401,JP,Japan,True,dc,0.57,ipv4.download.thinkbroadband.com,2866,222.14.54.111,DION (KDDI CORPORATION),Naha,speed,'MiniTcp' object has no attribute 'sendall'
+vpn179734162.opengw.net,1441,JP,Japan,True,home,0.97,ipv4.download.thinkbroadband.com,2690,124.18.175.178,"Chubu Telecommunications Company, Inc.",Iwata,speed,'MiniTcp' object has no attribute 'sendall'
+vpn187166463.opengw.net,1750,JP,Japan,True,dc,0.97,ipv4.download.thinkbroadband.com,2661,219.211.157.64,SoftBank Corp.,Minato,speed,'MiniTcp' object has no attribute 'sendall'
+vpn214335136.opengw.net,1591,JP,Japan,True,dc,0.93,ipv4.download.thinkbroadband.com,2709,60.110.16.61,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
+vpn223473667.opengw.net,1822,JP,Japan,True,home,0.86,ipv4.download.thinkbroadband.com,2769,60.75.38.101,SoftBank Corp.,Minato-ku,speed,'MiniTcp' object has no attribute 'sendall'
+vpn248153573.opengw.net,1581,JP,Japan,True,dc,0.69,ipv4.download.thinkbroadband.com,2925,27.95.108.240,Kddi Corporation,Machida,speed,'MiniTcp' object has no attribute 'sendall'
+vpn285486729.opengw.net,1291,JP,Japan,True,dc,0.7,ipv4.download.thinkbroadband.com,3069,116.82.239.43,Sony Network Communications Inc,Nagoya,speed,'MiniTcp' object has no attribute 'sendall'
+vpn341010937.opengw.net,1262,JP,Japan,True,dc,0.81,ipv4.download.thinkbroadband.com,2821,222.5.66.192,DION (KDDI CORPORATION),Kuranamidai,speed,'MiniTcp' object has no attribute 'sendall'
+vpn355703068.opengw.net,1752,JP,Japan,True,,0.99,ipv4.download.thinkbroadband.com,2798,,,,info,PPP TCP connect timeout
+vpn411772699.opengw.net,1964,JP,Japan,True,dc,0.96,ipv4.download.thinkbroadband.com,3060,111.217.125.30,Sony Network Communications Inc.,Tatebayashi,speed,'MiniTcp' object has no attribute 'sendall'
+vpn551324053.opengw.net,1877,JP,Japan,True,dc,0.72,ipv4.download.thinkbroadband.com,2463,42.144.229.118,"JCOM Co., Ltd.",Fujiyoshida,speed,'MiniTcp' object has no attribute 'sendall'
+vpn574722688.opengw.net,1746,JP,Japan,True,dc,0.81,ipv4.download.thinkbroadband.com,2777,118.155.121.4,DION (KDDI CORPORATION),Sapporo,speed,'MiniTcp' object has no attribute 'sendall'
+vpn575184406.opengw.net,1629,JP,Japan,True,home,0.99,ipv4.download.thinkbroadband.com,2625,218.227.42.228,BIGLOBE Inc.,Nishi Ku,speed,'MiniTcp' object has no attribute 'sendall'
+vpn584377130.opengw.net,1822,JP,Japan,True,dc,0.62,ipv4.download.thinkbroadband.com,2844,14.14.148.93,TTV,Tama,speed,'MiniTcp' object has no attribute 'sendall'
+vpn602618611.opengw.net,1610,JP,Japan,True,dc,0.9,ipv4.download.thinkbroadband.com,2972,113.154.14.89,DION (KDDI CORPORATION),Kameido,speed,'MiniTcp' object has no attribute 'sendall'
+vpn622973635.opengw.net,1922,JP,Japan,True,home,0.92,ipv4.download.thinkbroadband.com,2942,122.145.54.158,"STNet, Incorporated",Kochi,speed,'MiniTcp' object has no attribute 'sendall'
+vpn668314964.opengw.net,1209,JP,Japan,True,dc,0.62,ipv4.download.thinkbroadband.com,2743,36.13.32.229,Kddi Corporation,Uehara,speed,'MiniTcp' object has no attribute 'sendall'
+vpn681398325.opengw.net,1256,JP,Japan,True,dc,0.98,ipv4.download.thinkbroadband.com,2911,126.208.100.178,SoftBank Corp.,Nirasaki,speed,'MiniTcp' object has no attribute 'sendall'
+vpn791242999.opengw.net,1487,JP,Japan,True,home,0.93,ipv4.download.thinkbroadband.com,2999,133.123.1.153,"STNet, Incorporated",Tokushima,speed,'MiniTcp' object has no attribute 'sendall'
+vpn844197835.opengw.net,1411,JP,Japan,True,home,0.96,ipv4.download.thinkbroadband.com,2721,180.198.4.253,"Chubu Telecommunications Company, Inc.",Fukuroi,speed,'MiniTcp' object has no attribute 'sendall'
+vpn908297011.opengw.net,1869,JP,Japan,True,home,0.95,ipv4.download.thinkbroadband.com,2709,114.190.66.131,NTT Communications Corporation,Toyokawa,speed,'MiniTcp' object has no attribute 'sendall'
+vpn975550277.opengw.net,1514,JP,Japan,True,home,,,2688,180.198.167.80,"Chubu Telecommunications Company, Inc.",Suzuka,speed,'MiniTcp' object has no attribute 'sendall'
+vpn189075188.opengw.net,1737,KR,Korea Republic of,True,home,,,2838,183.99.109.76,Korea Telecom,Gwangju,speed,'MiniTcp' object has no attribute 'sendall'
+vpn193301195.opengw.net,995,KR,Korea Republic of,True,home,0.86,ipv4.download.thinkbroadband.com,2854,112.72.196.83,HYUNDAI HCN Chungbuk Systems Co.Ltd,Cheongju-si,speed,'MiniTcp' object has no attribute 'sendall'
+vpn235782390.opengw.net,995,KR,Korea Republic of,True,home,0.72,ipv4.download.thinkbroadband.com,2690,112.159.65.27,LG POWERCOMM,Jungnang-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn241413311.opengw.net,995,KR,Korea Republic of,True,home,2.12,ipv4.download.thinkbroadband.com,2863,182.224.174.184,LG POWERCOMM,Seoul,speed,'MiniTcp' object has no attribute 'sendall'
+vpn266228313.opengw.net,1917,KR,Korea Republic of,True,home,2.24,ipv4.download.thinkbroadband.com,2840,182.226.212.226,LG POWERCOMM,Suwon,speed,'MiniTcp' object has no attribute 'sendall'
+vpn272455472.opengw.net,995,KR,Korea Republic of,True,home,,,2882,14.52.83.24,Korea Telecom,Gangnam-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn273544973.opengw.net,995,KR,Korea Republic of,True,home,,,2807,14.47.184.217,Korea Telecom,Seocho-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn283397564.opengw.net,995,KR,Korea Republic of,True,home,0.89,ipv4.download.thinkbroadband.com,2920,222.232.238.186,SK Broadband Co Ltd,Namyangju,speed,'MiniTcp' object has no attribute 'sendall'
+vpn443612406.opengw.net,995,KR,Korea Republic of,True,dc,0.82,ipv4.download.thinkbroadband.com,2965,118.37.11.193,Korea Telecom,Gangseo-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn485425448.opengw.net,995,KR,Korea Republic of,True,home,1.35,ipv4.download.thinkbroadband.com,2441,182.221.217.73,LG POWERCOMM,Seongbuk-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn581772356.opengw.net,995,KR,Korea Republic of,True,home,0.95,ipv4.download.thinkbroadband.com,2785,219.255.223.88,SK Broadband Co Ltd,Dongjak-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn595298283.opengw.net,995,KR,Korea Republic of,True,home,0.94,ipv4.download.thinkbroadband.com,2815,1.247.231.142,SK Broadband Co Ltd,Cheonan,speed,'MiniTcp' object has no attribute 'sendall'
+vpn610214050.opengw.net,1793,KR,Korea Republic of,True,dc,0.82,ipv4.download.thinkbroadband.com,2831,220.86.142.246,Korea Telecom,Eunpyeong-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn630773891.opengw.net,1322,KR,Korea Republic of,True,home,0.94,ipv4.download.thinkbroadband.com,2788,121.181.244.59,Korea Telecom,Seo-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn647079365.opengw.net,995,KR,Korea Republic of,True,home,,,2991,175.214.177.43,Korea Telecom,Suyeong-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn694663858.opengw.net,1491,KR,Korea Republic of,True,home,0.34,ipv4.download.thinkbroadband.com,3751,1.239.107.78,SK Broadband Co Ltd,Uijeongbu-si,speed,'MiniTcp' object has no attribute 'sendall'
+vpn710136103.opengw.net,995,KR,Korea Republic of,True,home,,,2835,115.21.28.168,Korea Telecom,Yangcheon-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn757870457.opengw.net,1947,KR,Korea Republic of,True,dc,0.84,ipv4.download.thinkbroadband.com,3034,112.187.148.146,Korea Telecom,Dongdaemun,speed,'MiniTcp' object has no attribute 'sendall'
+vpn764509656.opengw.net,1256,KR,Korea Republic of,True,home,0.85,ipv4.download.thinkbroadband.com,2803,211.221.199.51,Korea Telecom,Seongnam-si,speed,'MiniTcp' object has no attribute 'sendall'
+vpn791036637.opengw.net,995,KR,Korea Republic of,True,home,2.19,ipv4.download.thinkbroadband.com,2860,116.36.223.105,LG POWERCOMM,Gangnam-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn834328692.opengw.net,995,KR,Korea Republic of,True,home,,,2952,220.127.121.144,Korea Telecom,Siheung-si,speed,'MiniTcp' object has no attribute 'sendall'
+vpn842523171.opengw.net,995,KR,Korea Republic of,True,home,,,2982,112.172.238.220,Korea Telecom,Seoul,speed,'MiniTcp' object has no attribute 'sendall'
+vpn912920644.opengw.net,995,KR,Korea Republic of,True,home,,,2831,14.48.190.61,Korea Telecom,Buk-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn932624359.opengw.net,995,KR,Korea Republic of,True,home,2.25,ipv4.download.thinkbroadband.com,2790,182.213.69.18,LG POWERCOMM,Gimpo-si,speed,'MiniTcp' object has no attribute 'sendall'
+vpn958993796.opengw.net,995,KR,Korea Republic of,True,home,,,2818,211.228.156.105,Korea Telecom,Daegu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn960418984.opengw.net,1679,KR,Korea Republic of,True,home,,,2825,119.197.113.205,Korea Telecom,Gimpo-si,speed,'MiniTcp' object has no attribute 'sendall'
+vpn965565600.opengw.net,1401,KR,Korea Republic of,True,dc,0.91,ipv4.download.thinkbroadband.com,2895,58.236.16.177,SK Broadband Co Ltd,Gangdong-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn975578001.opengw.net,995,KR,Korea Republic of,True,home,,,3302,118.36.225.147,Korea Telecom,Gwanak-gu,speed,'MiniTcp' object has no attribute 'sendall'
+vpn114639283.opengw.net,1780,RU,Russian Federation,True,home,,,3875,90.157.34.36,"LLC ""KomTehCentr""",Yekaterinburg,speed,'MiniTcp' object has no attribute 'sendall'
+vpn198448846.opengw.net,995,RU,Russian Federation,True,,,,3421,,,,info,Expecting value: line 1 column 1 (char 0)
+vpn517112830.opengw.net,995,RU,Russian Federation,True,home,,,4398,192.166.103.185,PJSC Promtelecom,Donetsk,speed,'MiniTcp' object has no attribute 'sendall'
+vpn908248999.opengw.net,1780,RU,Russian Federation,True,home,,,3200,5.3.190.7,"JSC ""ER-Telecom Holding""",St Petersburg,speed,'MiniTcp' object has no attribute 'sendall'
+vpn917256032.opengw.net,1776,TH,Thailand,True,home,0.65,ipv4.download.thinkbroadband.com,3474,27.130.164.126,Triple T Broadband Public Company Limited,Phitsanulok,speed,'MiniTcp' object has no attribute 'sendall'
+vpn102042272.opengw.net,1822,JP,Japan,False,,,,,,,,tcp,timed out
+vpn143803283.opengw.net,1291,JP,Japan,False,,,,,,,,tcp,timed out
+vpn355090085.opengw.net,1943,JP,Japan,False,,,,,,,,tcp,timed out
+vpn456750387.opengw.net,1440,JP,Japan,False,,,,,,,,tcp,timed out
+vpn622119579.opengw.net,1716,JP,Japan,False,,,,,,,,tcp,timed out
+vpn708608193.opengw.net,1793,JP,Japan,False,,,,,,,,tcp,[Errno 111] Connection refused
+vpn818720720.opengw.net,1944,JP,Japan,False,,,,,,,,tcp,timed out
+vpn878601290.opengw.net,995,JP,Japan,False,,,,,,,,tcp,timed out
 vpn107768805.opengw.net,995,KR,Korea Republic of,False,,,,,,,,tls,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)
-vpn162406493.opengw.net,1795,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn249708540.opengw.net,995,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn409038949.opengw.net,1768,KR,Korea Republic of,False,,,,,,,,tcp,[Errno 111] Connection refused
-vpn425038562.opengw.net,1912,KR,Korea Republic of,False,,,,,,,,tls,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)
-vpn466410372.opengw.net,1664,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn575728541.opengw.net,1733,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn599540316.opengw.net,1846,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn606229899.opengw.net,995,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn630316528.opengw.net,995,KR,Korea Republic of,False,,,,,,,,tcp,timed out
-vpn799794865.opengw.net,1919,US,United States,False,,,,,,,,tcp,timed out
+vpn630885330.opengw.net,995,KR,Korea Republic of,False,,,,,,,,tcp,timed out
+vpn727028352.opengw.net,995,KR,Korea Republic of,False,,,,,,,,tcp,timed out
+vpn771852693.opengw.net,1399,KR,Korea Republic of,False,,,,,,,,tcp,[Errno 111] Connection refused
+vpn455199443.opengw.net,1904,RU,Russian Federation,False,,,,,,,,tcp,timed out
+vpn929837151.opengw.net,1560,US,United States,False,,,,,,,,tcp,timed out
