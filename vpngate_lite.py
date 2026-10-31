@@ -700,9 +700,12 @@ def probe_node(cand, args):
 # 输出
 # ---------------------------------------------------------------------------
 
-def build_outputs(results, edge_pool, out_dir):
+def build_outputs(results, edge_pool, out_dir, include_dc=False):
     os.makedirs(out_dir, exist_ok=True)
-    ok = [r for r in results if r['ok']]
+    ok_all = [r for r in results if r['ok']]
+    dc_found = [r for r in ok_all if r['tag'] == 'dc']
+    # 默认排除机房节点; report.csv 仍保留全量供审计
+    ok = ok_all if include_dc else [r for r in ok_all if r['tag'] != 'dc']
     # 排序: 住宅优先 -> mbps 降序 -> 延迟升序
     def sort_key(r):
         return (0 if r['tag'] != 'dc' else 1, -(r['mbps'] or 0), r['latency_ms'] or 99999)
@@ -744,6 +747,7 @@ def build_outputs(results, edge_pool, out_dir):
         'checked': len(results), 'ok': len(ok),
         'residential': sum(1 for r in ok if r['tag'] == 'home'),
         'datacenter': sum(1 for r in ok if r['tag'] == 'dc'),
+        'dc_excluded': (len(dc_found) if not include_dc else 0),
         'countries': sorted({r['code'] for r in ok}),
         'median_mbps': (sorted([r['mbps'] for r in ok if r['mbps'] is not None])[len([r for r in ok if r['mbps'] is not None]) // 2]
                         if any(r['mbps'] is not None for r in ok) else None),
@@ -782,6 +786,7 @@ def main():
     ap.add_argument('--max', type=int, default=120, help='最多探测多少个节点 (按 ping 排序取前 N)')
     ap.add_argument('--concurrency', type=int, default=6)
     ap.add_argument('--out', default='out')
+    ap.add_argument('--include-dc', action='store_true', help='保留机房节点 (默认排除, nodes.txt 只出住宅/未判定)')
     ap.add_argument('--include-official', action='store_true', help='包含官方机房 (默认排除)')
     ap.add_argument('--no-info', action='store_true', help='跳过出口 IP 查询 (更快)')
     ap.add_argument('--no-speed', action='store_true', help='跳过测速 (更快)')
@@ -822,11 +827,12 @@ def main():
                 'OK ' + ('%sms' % r['latency_ms'] if r['latency_ms'] else '') + (' %.1fMbps' % r['mbps'] if r['mbps'] else ''),
                 ('fail@' + r['stage'] + ' ' + r['error']) if not r['ok'] else ''))
 
-    stats, lines = build_outputs(results, edge_pool, args.out)
+    stats, lines = build_outputs(results, edge_pool, args.out, include_dc=args.include_dc)
     log('')
     log('===== 结果 =====')
-    log('可用: %d / %d (住宅 %d, 机房 %d)' % (stats['ok'], stats['checked'],
-                                              stats['residential'], stats['datacenter']))
+    log('可用: %d / %d (住宅 %d, 机房 %d%s)' % (stats['ok'], stats['checked'],
+                                              stats['residential'], stats['datacenter'],
+                                              ('', ', 机房已排除 %d 个' % stats['dc_excluded'])[stats['dc_excluded'] > 0]))
     for code in stats['countries']:
         zh = COUNTRY_ZH.get(code, code)
         n = sum(1 for r in results if r['ok'] and r['code'] == code)
