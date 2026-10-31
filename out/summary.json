@@ -1,0 +1,15 @@
+{
+ "generated_at": "2026-10-31 08:21:55 UTC",
+ "checked": 72,
+ "ok": 62,
+ "residential": 40,
+ "datacenter": 21,
+ "countries": [
+  "JP",
+  "KR",
+  "RO",
+  "RU",
+  "VN"
+ ],
+ "median_mbps": 0.91
+}
