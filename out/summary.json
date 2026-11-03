@@ -1,21 +1,22 @@
 {
- "generated_at": "2026-11-02 23:31:26 UTC",
- "checked": 255,
- "ok": 43,
- "residential": 38,
+ "generated_at": "2026-11-03 04:14:42 UTC",
+ "checked": 225,
+ "ok": 51,
+ "residential": 48,
  "datacenter": 0,
- "dc_excluded": 128,
- "stable": 33,
+ "dc_excluded": 142,
+ "stable": 37,
  "countries": [
   "JP",
   "KR",
   "MA",
-  "MX",
   "RU",
+  "TH",
   "TW",
   "US",
+  "VE",
   "VN"
  ],
- "median_mbps": 0.83,
- "median_up": 2.76
+ "median_mbps": 0.79,
+ "median_up": 2.36
 }
