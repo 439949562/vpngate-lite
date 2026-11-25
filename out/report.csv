@@ -1,268 +1,286 @@
 host,port,code,country,ok,tag,streak,mbps,up_mbps,speed_src,latency_ms,exit_ip,isp,city,stage,error
-vpn231298988.opengw.net,1953,AE,United Arab Emirates,True,dc,5,0.94,2.0,ipv4.download.thinkbroadband.com,3713,31.215.89.232,EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC,Abu Dhabi,speed,timeout waiting for SSTP data
-vpn750646765.opengw.net,995,AM,Armenia,True,dc,16,0.65,3.09,ipv4.download.thinkbroadband.com,2999,45.146.241.113,BitCommand LLC,Ashburn,speed,timeout waiting for SSTP data
-vpn759761201.opengw.net,1521,AU,Australia,True,dc,20,0.69,2.84,ipv4.download.thinkbroadband.com,3378,125.253.56.120,SUPERLOOP (AUSTRALIA) PTY LTD,Perth,speed,timeout waiting for SSTP data
-vpn399630262.opengw.net,995,BR,Brazil,True,dc,4,,2.54,,3185,179.135.95.98,Vivo,Diadema,speed,timeout waiting for SSTP data
-vpn239039185.opengw.net,1867,CA,Canada,True,home,3,1.97,6.46,ipv4.download.thinkbroadband.com,2227,70.50.200.243,Bell Canada,Stoney Creek,speed,timeout waiting for SSTP data
-vpn421416087.opengw.net,995,CA,Canada,True,home,8,1.66,9.89,ipv4.download.thinkbroadband.com,2519,70.79.224.227,Shaw Communications,Richmond,speed,timeout waiting for SSTP data
-vpn491348575.opengw.net,1697,CA,Canada,True,home,4,1.96,10.05,ipv4.download.thinkbroadband.com,1907,184.68.30.115,Shaw Communications,Vancouver,speed,timeout waiting for SSTP data
-intranet-bpkskaboki.opengw.net,443,ID,Indonesia,True,dc,21,,2.31,,2918,182.9.226.180,PT Telekomunikasi Selular Indonesia,Palembang,speed,timeout waiting for SSTP data
-vpn398736484.opengw.net,1723,IT,Italy,True,dc,20,1.38,2.58,ipv4.download.thinkbroadband.com,2745,45.89.183.66,Retelit Digital Services S.p.A.,Luni,speed,timeout waiting for SSTP data
-laud.opengw.net,443,JP,Japan,True,dc,23,1.95,2.99,ipv4.download.thinkbroadband.com,2429,187.15.135.98,GSL Networks Pty LTD,Tokyo,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn102800483.opengw.net,1475,JP,Japan,True,dc,13,0.98,4.16,ipv4.download.thinkbroadband.com,2639,124.219.214.107,Sony Network Communications Inc.,Moriya,speed,timeout waiting for SSTP data
-vpn110639311.opengw.net,1764,JP,Japan,True,dc,9,0.85,3.53,ipv4.download.thinkbroadband.com,2715,106.153.16.152,Kddi Corporation,Kanazawa,speed,timeout waiting for SSTP data
-vpn122916437.opengw.net,1558,JP,Japan,True,dc,13,0.97,3.84,ipv4.download.thinkbroadband.com,2708,123.48.124.169,"Chubu Telecommunications Company, Inc.",Hamamatsu,speed,timeout waiting for SSTP data
-vpn123938780.opengw.net,1716,JP,Japan,True,dc,1,1.0,4.04,ipv4.download.thinkbroadband.com,2702,180.11.151.249,NTT Communications Corporation,Tokyo,speed,timeout waiting for SSTP data
-vpn137812529.opengw.net,1240,JP,Japan,True,dc,1,0.88,,ipv4.download.thinkbroadband.com,2830,218.228.192.151,OPTAGE Inc.,Osaka,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn141040696.opengw.net,1408,JP,Japan,True,home,2,0.87,3.2,ipv4.download.thinkbroadband.com,2772,183.177.159.21,ARTERIA Networks Corporation,Minato,speed,timeout waiting for SSTP data
-vpn152852888.opengw.net,1613,JP,Japan,True,dc,16,0.77,3.81,ipv4.download.thinkbroadband.com,2711,153.205.149.91,NTT Communications Corporation,Kawaguchi,speed,timeout waiting for SSTP data
-vpn152857105.opengw.net,1924,JP,Japan,True,dc,10,,4.24,,2638,222.6.221.181,Kddi Corporation,Noda,speed,timeout waiting for SSTP data
-vpn164481805.opengw.net,1726,JP,Japan,True,dc,4,0.8,3.78,ipv4.download.thinkbroadband.com,2686,115.37.39.235,"Chubu Telecommunications Company, Inc.",Ichinomiya,speed,timeout waiting for SSTP data
-vpn177768996.opengw.net,1635,JP,Japan,True,dc,14,1.0,,ipv4.download.thinkbroadband.com,2807,221.44.173.56,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:1018)
-vpn179734162.opengw.net,1441,JP,Japan,True,dc,21,0.85,3.41,ipv4.download.thinkbroadband.com,2734,124.18.175.178,"Chubu Telecommunications Company, Inc.",Kakegawa,speed,timeout waiting for SSTP data
-vpn184169581.opengw.net,1713,JP,Japan,True,,11,,,,3855,,,,info,timeout waiting for SSTP data
-vpn188811855.opengw.net,1891,JP,Japan,True,dc,7,0.97,3.94,ipv4.download.thinkbroadband.com,2589,126.88.122.179,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:1018)
-vpn201165799.opengw.net,1875,JP,Japan,True,home,1,0.55,,ipv4.download.thinkbroadband.com,2532,175.41.93.137,"JCOM Co., Ltd.",Funabashi,speed,timeout waiting for SSTP data
-vpn2070.opengw.net,5555,JP,Japan,True,dc,21,0.98,4.29,ipv4.download.thinkbroadband.com,2672,58.188.239.61,OPTAGE Inc.,Osaka,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn219429935.opengw.net,1640,JP,Japan,True,dc,15,0.97,3.96,ipv4.download.thinkbroadband.com,2839,14.132.92.47,"Chubu Telecommunications Company, Inc.",Nagoya,speed,timeout waiting for SSTP data
-vpn219650000.opengw.net,1254,JP,Japan,True,dc,1,1.01,4.14,ipv4.download.thinkbroadband.com,2620,116.67.212.245,Sony Network Communications Inc,Edogawa City,speed,timeout waiting for SSTP data
-vpn225306834.opengw.net,1935,JP,Japan,True,home,13,,2.99,,2824,121.81.79.254,OPTAGE Inc.,Suita,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn250920860.opengw.net,1895,JP,Japan,True,dc,10,0.85,3.24,ipv4.download.thinkbroadband.com,2734,210.198.250.157,Kddi Corporation,Obihiro,speed,timeout waiting for SSTP data
-vpn254588575.opengw.net,1856,JP,Japan,True,dc,6,,4.13,,2657,159.28.242.14,Sony Network Communications Inc,Arakawa,speed,timeout waiting for SSTP data
-vpn258563631.opengw.net,1423,JP,Japan,True,home,19,0.84,3.26,ipv4.download.thinkbroadband.com,2646,153.232.94.63,NTT Communications Corporation,Nakano City,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn273139490.opengw.net,1264,JP,Japan,True,home,7,0.76,3.78,ipv4.download.thinkbroadband.com,2764,125.204.147.148,NTT Communications Corporation,Ise,speed,timeout waiting for SSTP data
-vpn313136357.opengw.net,1253,JP,Japan,True,dc,2,0.86,2.69,ipv4.download.thinkbroadband.com,2674,118.156.137.250,Kddi Corporation,Kanamechō,speed,timeout waiting for SSTP data
-vpn316730005.opengw.net,1235,JP,Japan,True,dc,5,,4.06,,2657,14.101.210.162,Kddi Corporation,Ōta,speed,timeout waiting for SSTP data
-vpn327481064.opengw.net,1230,JP,Japan,True,dc,1,1.01,4.06,ipv4.download.thinkbroadband.com,2661,60.95.76.42,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:1018)
-vpn338576803.opengw.net,1818,JP,Japan,True,dc,3,,4.23,,2721,106.179.215.196,Kddi Corporation,Tokyo,speed,timeout waiting for SSTP data
-vpn341010937.opengw.net,1262,JP,Japan,True,dc,21,0.87,2.77,ipv4.download.thinkbroadband.com,2795,222.5.66.192,DION (KDDI CORPORATION),Kuranamidai,speed,timeout waiting for SSTP data
-vpn344602886.opengw.net,1566,JP,Japan,True,home,6,0.76,3.76,ipv4.download.thinkbroadband.com,2787,113.153.88.108,DION (KDDI CORPORATION),Higashinakajima,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn345560266.opengw.net,1440,JP,Japan,True,dc,2,0.97,3.63,ipv4.download.thinkbroadband.com,2735,221.49.38.126,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
-vpn400535836.opengw.net,1916,JP,Japan,True,dc,2,0.95,4.25,ipv4.download.thinkbroadband.com,2608,36.12.244.203,Kddi Corporation,Igusa,speed,timeout waiting for SSTP data
-vpn402080134.opengw.net,1486,JP,Japan,True,dc,1,0.83,,ipv4.download.thinkbroadband.com,2871,119.170.233.13,"JCOM Co., Ltd.",Kitakyushu,speed,timeout waiting for SSTP data
-vpn413896691.opengw.net,1472,JP,Japan,True,dc,1,0.94,4.14,ipv4.download.thinkbroadband.com,2696,59.129.41.98,Kddi Corporation,Tama,speed,timeout waiting for SSTP data
-vpn440254653.opengw.net,1665,JP,Japan,True,home,1,0.96,,ipv4.download.thinkbroadband.com,2613,153.132.222.152,NTT Communications Corporation,Araichō,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn456065584.opengw.net,1511,JP,Japan,True,dc,8,,3.82,,3040,114.180.104.207,NTT Communications Corporation,Takasaki,speed,timeout waiting for SSTP data
-vpn460276134.opengw.net,1234,JP,Japan,True,dc,6,0.83,3.15,ipv4.download.thinkbroadband.com,2741,14.101.82.147,Kddi Corporation,Nagasaki,speed,timeout waiting for SSTP data
-vpn462278742.opengw.net,1465,JP,Japan,True,,10,,,,2726,,,,info,PPP TCP connect timeout
-vpn463711899.opengw.net,1551,JP,Japan,True,dc,3,0.97,4.25,ipv4.download.thinkbroadband.com,2543,118.237.85.175,Sony Network Communications Inc,Wakabayashi,speed,timeout waiting for SSTP data
-vpn464208383.opengw.net,1791,JP,Japan,True,dc,3,,3.7,,2758,59.158.19.186,ARTERIA Networks Corporation,Sapporo,speed,timeout waiting for SSTP data
-vpn475680815.opengw.net,1376,JP,Japan,True,dc,1,0.93,3.51,ipv4.download.thinkbroadband.com,2884,126.34.160.86,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn480.opengw.net,5555,JP,Japan,True,home,23,1.01,4.08,ipv4.download.thinkbroadband.com,2797,110.163.140.56,"NTT DOCOMO, INC.",Urayasu,speed,timeout waiting for SSTP data
-vpn492546784.opengw.net,1375,JP,Japan,True,dc,1,0.8,,ipv4.download.thinkbroadband.com,2736,175.41.101.48,JCOM,Funabashi,speed,TLS read timeout
-vpn493957786.opengw.net,1205,JP,Japan,True,dc,6,0.94,4.09,ipv4.download.thinkbroadband.com,2635,106.159.21.238,Kddi Corporation,Shinjuku,speed,timeout waiting for SSTP data
-vpn501734765.opengw.net,1534,JP,Japan,True,dc,3,0.92,3.58,ipv4.download.thinkbroadband.com,2710,218.115.106.192,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn540491747.opengw.net,1811,JP,Japan,True,dc,6,0.94,4.0,ipv4.download.thinkbroadband.com,2651,39.110.50.237,Sony Network Communications Inc,Hitachi,speed,timeout waiting for SSTP data
-vpn551324053.opengw.net,1877,JP,Japan,True,dc,17,0.79,,ipv4.download.thinkbroadband.com,2184,42.144.229.118,"JCOM Co., Ltd.",Fujiyoshida,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn578034962.opengw.net,1702,JP,Japan,True,dc,17,0.78,1.27,ipv4.download.thinkbroadband.com,3165,133.218.25.217,Internet Initiative Japan Inc.,Minokamo,speed,timeout waiting for SSTP data
-vpn583764032.opengw.net,1464,JP,Japan,True,dc,15,0.95,3.89,ipv4.download.thinkbroadband.com,2855,115.36.204.213,"Chubu Telecommunications Company, Inc.",Hamamatsu,speed,timeout waiting for SSTP data
-vpn600793495.opengw.net,1506,JP,Japan,True,dc,23,1.01,3.96,ipv4.download.thinkbroadband.com,2649,126.12.172.212,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
-vpn603234016.opengw.net,1768,JP,Japan,True,dc,17,0.9,3.16,ipv4.download.thinkbroadband.com,2764,220.109.42.142,NTT Communications Corporation,Sapporo,speed,timeout waiting for SSTP data
-vpn609012261.opengw.net,1276,JP,Japan,True,home,2,0.94,3.03,ipv4.download.thinkbroadband.com,2818,60.236.15.105,BIGLOBE Inc.,Higashikubochō,speed,timeout waiting for SSTP data
-vpn611260208.opengw.net,1991,JP,Japan,True,dc,7,1.0,3.88,ipv4.download.thinkbroadband.com,2835,126.187.36.189,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
-vpn614343992.opengw.net,1270,JP,Japan,True,dc,9,0.96,,ipv4.download.thinkbroadband.com,2655,126.91.218.92,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
-vpn617491321.opengw.net,1931,JP,Japan,True,home,1,1.01,3.83,ipv4.download.thinkbroadband.com,2650,60.47.14.11,NTT Communications Corporation,Tokyo,speed,timeout waiting for SSTP data
-vpn634109661.opengw.net,1284,JP,Japan,True,home,1,0.96,,ipv4.download.thinkbroadband.com,2719,126.218.26.174,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn636797683.opengw.net,1394,JP,Japan,True,dc,1,0.98,3.93,ipv4.download.thinkbroadband.com,2643,180.198.56.0,"Chubu Telecommunications Company, Inc.",Kiyosu,speed,timeout waiting for SSTP data
-vpn652870061.opengw.net,1780,JP,Japan,True,dc,1,1.02,4.11,ipv4.download.thinkbroadband.com,3167,126.76.96.220,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
-vpn660985126.opengw.net,1757,JP,Japan,True,dc,7,0.83,1.73,ipv4.download.thinkbroadband.com,2807,39.111.4.69,Sony Network Communications Inc,Asagayakita,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn661982.opengw.net,7551,JP,Japan,True,dc,13,0.92,4.06,ipv4.download.thinkbroadband.com,2673,14.10.120.193,Kddi Corporation,Amagasaki,speed,timeout waiting for SSTP data
-vpn662317581.opengw.net,1817,JP,Japan,True,home,3,0.75,,ipv4.download.thinkbroadband.com,2425,133.218.196.194,Internet Initiative Japan Inc.,Nagoya,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn671350283.opengw.net,1820,JP,Japan,True,dc,16,1.0,4.08,ipv4.download.thinkbroadband.com,2814,153.180.162.195,NTT Communications Corporation,Tokyo,speed,timeout waiting for SSTP data
-vpn678504843.opengw.net,1926,JP,Japan,True,dc,20,0.96,4.11,ipv4.download.thinkbroadband.com,2640,219.104.84.18,Japan Network Information Center,Moriguchi Shi,speed,timeout waiting for SSTP data
-vpn683539447.opengw.net,1549,JP,Japan,True,dc,22,0.85,3.39,ipv4.download.thinkbroadband.com,2496,61.25.149.161,"JCOM Co., Ltd.",Toyama,speed,timeout waiting for SSTP data
-vpn687361087.opengw.net,1327,JP,Japan,True,dc,1,0.86,,ipv4.download.thinkbroadband.com,2414,122.197.135.133,CANS,Sakai,speed,timeout waiting for SSTP data
-vpn693017146.opengw.net,1545,JP,Japan,True,dc,1,0.96,,ipv4.download.thinkbroadband.com,3105,218.131.41.95,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn699884073.opengw.net,1556,JP,Japan,True,dc,3,0.98,4.04,ipv4.download.thinkbroadband.com,2675,126.8.199.141,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
-vpn711674780.opengw.net,1603,JP,Japan,True,dc,22,,,,3029,124.32.30.64,ARTERIA Networks Corporation,Higashiosaka,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn711677985.opengw.net,1730,JP,Japan,True,dc,10,0.98,4.05,ipv4.download.thinkbroadband.com,2641,60.126.0.2,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn715779327.opengw.net,1472,JP,Japan,True,home,1,0.86,3.01,ipv4.download.thinkbroadband.com,2764,203.165.87.33,Jupiter Telecommunication Co. Ltd,Taitō City,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn718820171.opengw.net,1399,JP,Japan,True,dc,2,0.81,1.96,ipv4.download.thinkbroadband.com,2811,210.239.247.25,KDDI Corporation,Sanmu,speed,timeout waiting for SSTP data
-vpn736504438.opengw.net,1834,JP,Japan,True,home,13,1.01,3.84,ipv4.download.thinkbroadband.com,2647,126.103.176.238,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn737279530.opengw.net,1999,JP,Japan,True,dc,1,0.95,,ipv4.download.thinkbroadband.com,2374,221.71.160.174,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn774927062.opengw.net,1776,JP,Japan,True,home,11,1.0,4.09,ipv4.download.thinkbroadband.com,2639,118.105.225.45,"Chubu Telecommunications Company, Inc.",Nisshin,speed,timeout waiting for SSTP data
-vpn778887611.opengw.net,1234,JP,Japan,True,home,3,0.85,2.8,ipv4.download.thinkbroadband.com,2851,128.28.114.177,"NTT PC Communications, Inc.",Kyoto,speed,timeout waiting for SSTP data
-vpn788502559.opengw.net,1908,JP,Japan,True,dc,23,0.96,,ipv4.download.thinkbroadband.com,2701,220.254.220.117,Naganoken Kyodou Densan Co.Ltd.,Nagano,speed,timeout waiting for SSTP data
-vpn804890292.opengw.net,1724,JP,Japan,True,dc,2,0.96,,ipv4.download.thinkbroadband.com,2756,126.77.185.5,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn810318235.opengw.net,1628,JP,Japan,True,dc,1,0.9,3.73,ipv4.download.thinkbroadband.com,2705,124.209.182.165,DION (KDDI CORPORATION),Ikegami,speed,timeout waiting for SSTP data
-vpn813516587.opengw.net,1534,JP,Japan,True,dc,13,0.97,3.83,ipv4.download.thinkbroadband.com,2728,123.48.124.169,"Chubu Telecommunications Company, Inc.",Hamamatsu,speed,timeout waiting for SSTP data
-vpn836545670.opengw.net,1910,JP,Japan,True,dc,21,0.96,4.31,ipv4.download.thinkbroadband.com,2570,133.114.158.248,Sony Network Communications Inc.,Suge,speed,timeout waiting for SSTP data
-vpn841038279.opengw.net,1287,JP,Japan,True,dc,8,0.97,3.79,ipv4.download.thinkbroadband.com,2684,126.214.203.87,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn844197835.opengw.net,1411,JP,Japan,True,home,1,0.97,3.75,ipv4.download.thinkbroadband.com,2713,118.106.181.117,"Chubu Telecommunications Company, Inc.",Fukuroi,speed,timeout waiting for SSTP data
-vpn857348997.opengw.net,1544,JP,Japan,True,dc,1,0.82,3.19,ipv4.download.thinkbroadband.com,2786,59.135.18.252,DION (KDDI CORPORATION),Izumi Shi,speed,timeout waiting for SSTP data
-vpn880633907.opengw.net,1767,JP,Japan,True,dc,7,1.01,4.14,ipv4.download.thinkbroadband.com,2640,60.149.136.130,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:1018)
-vpn882137641.opengw.net,1648,JP,Japan,True,dc,1,0.87,3.52,ipv4.download.thinkbroadband.com,2259,125.55.149.142,DION (KDDI CORPORATION),Kashima,speed,timeout waiting for SSTP data
-vpn927671187.opengw.net,1759,JP,Japan,True,dc,16,1.0,4.11,ipv4.download.thinkbroadband.com,2629,153.180.162.195,NTT Communications Corporation,Tokyo,speed,timeout waiting for SSTP data
-vpn933256250.opengw.net,1448,JP,Japan,True,dc,4,0.86,3.2,ipv4.download.thinkbroadband.com,2760,111.97.197.128,Kddi Corporation,Miyakonojō,speed,timeout waiting for SSTP data
-vpn933450169.opengw.net,1309,JP,Japan,True,dc,13,0.84,2.22,ipv4.download.thinkbroadband.com,2809,106.153.7.87,Kddi Corporation,Sakura,speed,timeout waiting for SSTP data
-vpn938522983.opengw.net,1822,JP,Japan,True,home,21,1.0,3.89,ipv4.download.thinkbroadband.com,2713,153.202.130.112,NTT Communications Corporation,Nakazaki,speed,timeout waiting for SSTP data
-vpn945367046.opengw.net,1857,JP,Japan,True,home,1,0.88,3.22,ipv4.download.thinkbroadband.com,2769,42.124.45.198,TOKAI Communications Corporation,Tokyo,speed,timeout waiting for SSTP data
-vpn945893058.opengw.net,1242,JP,Japan,True,dc,15,0.87,3.85,ipv4.download.thinkbroadband.com,3071,59.138.139.69,Kddi Corporation,Adachi,speed,timeout waiting for SSTP data
-vpn946692838.opengw.net,1819,JP,Japan,True,dc,23,,,,2577,124.144.86.82,"JCOM Co., Ltd.",Nagareyama,speed,timeout waiting for SSTP data
-vpn953960224.opengw.net,1223,JP,Japan,True,dc,11,0.89,3.65,ipv4.download.thinkbroadband.com,2709,114.16.18.46,DION (KDDI CORPORATION),Ina,speed,timeout waiting for SSTP data
-vpn966358282.opengw.net,995,JP,Japan,True,dc,7,0.84,3.79,ipv4.download.thinkbroadband.com,2685,162.43.67.81,XSERVER Inc.,Chiyoda City,speed,timeout waiting for SSTP data
-vpn969156711.opengw.net,1767,JP,Japan,True,dc,23,0.81,3.42,ipv4.download.thinkbroadband.com,3321,60.93.146.33,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn975550277.opengw.net,1514,JP,Japan,True,dc,20,0.64,1.19,ipv4.download.thinkbroadband.com,3079,180.198.167.80,"Chubu Telecommunications Company, Inc.",Suzuka,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn981288372.opengw.net,1925,JP,Japan,True,dc,5,0.13,,ipv4.download.thinkbroadband.com,4558,42.148.153.40,"JCOM Co., Ltd.",Sakuragawa,speed,TLS read timeout
-vpn111698412.opengw.net,1743,KR,Korea Republic of,True,dc,19,1.97,2.86,ipv4.download.thinkbroadband.com,3104,112.214.34.62,DLIVE,Nowon-gu,speed,timeout waiting for SSTP data
-vpn116676185.opengw.net,995,KR,Korea Republic of,True,home,1,0.9,3.18,ipv4.download.thinkbroadband.com,2919,222.238.35.46,SK Broadband Co Ltd,Seoul,speed,timeout waiting for SSTP data
-vpn131652721.opengw.net,995,KR,Korea Republic of,True,dc,16,0.82,3.46,ipv4.download.thinkbroadband.com,2913,222.120.20.69,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
-vpn141739010.opengw.net,1386,KR,Korea Republic of,True,dc,1,,3.27,,2850,61.73.137.48,Korea Telecom,Mapo-gu,speed,timeout waiting for SSTP data
-vpn144440524.opengw.net,995,KR,Korea Republic of,True,home,3,,3.55,,2802,121.139.54.121,Korea Telecom,Anyang-si,speed,timeout waiting for SSTP data
-vpn154861873.opengw.net,995,KR,Korea Republic of,True,home,3,0.85,3.49,ipv4.download.thinkbroadband.com,2357,183.107.123.109,Korea Telecom,Incheon,speed,timeout waiting for SSTP data
-vpn157412522.opengw.net,1821,KR,Korea Republic of,True,dc,7,2.15,3.34,ipv4.download.thinkbroadband.com,2839,58.77.30.52,LG POWERCOMM,Namdong-gu,speed,timeout waiting for SSTP data
-vpn162822314.opengw.net,1672,KR,Korea Republic of,True,dc,2,0.93,3.35,ipv4.download.thinkbroadband.com,2866,211.245.102.129,SK Broadband Co Ltd,Sejong,speed,timeout waiting for SSTP data
-vpn162954440.opengw.net,995,KR,Korea Republic of,True,home,10,0.92,3.39,ipv4.download.thinkbroadband.com,2871,110.9.135.197,SK Broadband Co Ltd,Suwon,speed,timeout waiting for SSTP data
-vpn169225991.opengw.net,995,KR,Korea Republic of,True,home,17,2.25,3.71,ipv4.download.thinkbroadband.com,2835,125.240.231.54,LG POWERCOMM,Namyangju,speed,timeout waiting for SSTP data
-vpn183424407.opengw.net,995,KR,Korea Republic of,True,dc,23,0.83,3.41,ipv4.download.thinkbroadband.com,2840,112.170.131.60,Korea Telecom,Anyang-si,speed,timeout waiting for SSTP data
-vpn187374041.opengw.net,1665,KR,Korea Republic of,True,home,2,0.84,3.52,ipv4.download.thinkbroadband.com,2835,59.26.168.152,Korea Telecom,Gunpo,speed,timeout waiting for SSTP data
-vpn195809939.opengw.net,1632,KR,Korea Republic of,True,dc,5,0.85,3.51,ipv4.download.thinkbroadband.com,2838,221.165.229.38,Korea Telecom,Guri-si,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn201053993.opengw.net,1386,KR,Korea Republic of,True,dc,18,,3.47,,2821,121.161.33.240,Korea Telecom,Goyang-si,speed,timeout waiting for SSTP data
-vpn206184617.opengw.net,1559,KR,Korea Republic of,True,dc,1,0.87,3.44,ipv4.download.thinkbroadband.com,2765,125.134.83.248,Korea Telecom,Suyeong-gu,speed,timeout waiting for SSTP data
-vpn215224546.opengw.net,1858,KR,Korea Republic of,True,home,5,0.91,3.55,ipv4.download.thinkbroadband.com,2825,218.48.52.240,SK Broadband Co Ltd,Gangnam-gu,speed,timeout waiting for SSTP data
-vpn215791012.opengw.net,1274,KR,Korea Republic of,True,dc,19,0.59,,ipv4.download.thinkbroadband.com,2824,118.33.153.180,Korea Telecom,Namyangju,speed,timeout waiting for SSTP data
-vpn215877831.opengw.net,995,KR,Korea Republic of,True,home,1,2.09,3.44,ipv4.download.thinkbroadband.com,2906,49.164.215.189,LG POWERCOMM,Gwangsan-gu,speed,timeout waiting for SSTP data
-vpn265457647.opengw.net,1676,KR,Korea Republic of,True,home,10,,3.22,,3036,211.38.228.168,Korea Telecom,Gwangsan-gu,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn270057496.opengw.net,995,KR,Korea Republic of,True,home,10,0.82,3.29,ipv4.download.thinkbroadband.com,2856,220.124.223.184,Korea Telecom,Jeju-si,speed,timeout waiting for SSTP data
-vpn271901051.opengw.net,995,KR,Korea Republic of,True,home,12,,1.51,,2776,112.172.66.114,Korea Telecom,Dong-gu,speed,timeout waiting for SSTP data
-vpn303071146.opengw.net,1684,KR,Korea Republic of,True,dc,1,0.96,,ipv4.download.thinkbroadband.com,2730,116.121.173.112,SK Broadband Co Ltd,Suwon,speed,timeout waiting for SSTP data
-vpn314046814.opengw.net,1792,KR,Korea Republic of,True,dc,6,0.83,3.54,ipv4.download.thinkbroadband.com,2910,221.151.149.159,Korea Telecom,Gangseo-gu,speed,timeout waiting for SSTP data
-vpn325202957.opengw.net,1772,KR,Korea Republic of,True,dc,6,0.84,3.56,ipv4.download.thinkbroadband.com,2801,121.135.160.138,Korea Telecom,Gangnam-gu,speed,timeout waiting for SSTP data
-vpn326464611.opengw.net,995,KR,Korea Republic of,True,home,3,0.85,3.56,ipv4.download.thinkbroadband.com,2305,14.42.117.153,Korea Telecom,Pocheon-si,speed,timeout waiting for SSTP data
-vpn354665789.opengw.net,1663,KR,Korea Republic of,True,dc,1,0.79,3.44,ipv4.download.thinkbroadband.com,2829,125.139.168.226,Korea Telecom,Wanju,speed,timeout waiting for SSTP data
-vpn368694634.opengw.net,1545,KR,Korea Republic of,True,dc,15,,3.33,,2846,221.144.30.91,Korea Telecom,Naju,speed,timeout waiting for SSTP data
-vpn402044879.opengw.net,995,KR,Korea Republic of,True,home,17,,3.36,,2837,211.185.142.93,Korea Telecom,Samcheok,speed,timeout waiting for SSTP data
-vpn406459834.opengw.net,1435,KR,Korea Republic of,True,home,1,0.95,3.59,ipv4.download.thinkbroadband.com,2805,219.240.6.118,SK Broadband Co Ltd,Osan,speed,timeout waiting for SSTP data
-vpn416596627.opengw.net,995,KR,Korea Republic of,True,home,10,,3.52,,2806,119.203.61.190,Korea Telecom,Seo-gu,speed,timeout waiting for SSTP data
-vpn436828976.opengw.net,995,KR,Korea Republic of,True,home,22,,3.51,,3138,119.194.46.117,Korea Telecom,Hwaseong-si,speed,timeout waiting for SSTP data
-vpn451643961.opengw.net,995,KR,Korea Republic of,True,home,9,,3.52,,2801,210.178.21.127,Korea Telecom,Goyang-si,speed,timeout waiting for SSTP data
-vpn457942597.opengw.net,1900,KR,Korea Republic of,True,dc,2,0.84,3.53,ipv4.download.thinkbroadband.com,2811,121.128.227.42,Korea Telecom,Seongbuk-gu,speed,timeout waiting for SSTP data
-vpn460606822.opengw.net,1427,KR,Korea Republic of,True,dc,6,0.42,,ipv4.download.thinkbroadband.com,2729,223.131.48.244,SK Broadband Co Ltd,Seoul,speed,timeout waiting for SSTP data
-vpn466239180.opengw.net,1922,KR,Korea Republic of,True,dc,21,0.94,3.44,ipv4.download.thinkbroadband.com,2823,110.15.2.128,SK Broadband Co Ltd,Goyang-si,speed,timeout waiting for SSTP data
-vpn485780034.opengw.net,1710,KR,Korea Republic of,True,dc,2,0.86,3.49,ipv4.download.thinkbroadband.com,2787,121.177.105.70,Korea Telecom,Changwon,speed,timeout waiting for SSTP data
-vpn493435183.opengw.net,1808,KR,Korea Republic of,True,dc,8,,3.57,,2812,211.226.71.219,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
-vpn495161118.opengw.net,995,KR,Korea Republic of,True,home,15,1.96,3.34,ipv4.download.thinkbroadband.com,3009,182.219.221.68,LG POWERCOMM,Yongsan-dong,speed,timeout waiting for SSTP data
-vpn517964018.opengw.net,1323,KR,Korea Republic of,True,dc,6,0.09,,ipv4.download.thinkbroadband.com,2563,1.240.128.118,SK Broadband Co Ltd,Namyangju,speed,timeout waiting for SSTP data
-vpn521065574.opengw.net,995,KR,Korea Republic of,True,home,10,,3.33,,3208,112.167.64.3,Korea Telecom,Yeongwol-gun,speed,timeout waiting for SSTP data
-vpn521310356.opengw.net,995,KR,Korea Republic of,True,home,10,0.83,3.14,ipv4.download.thinkbroadband.com,2832,211.174.64.187,Korea Telecom,Pyeongtaek-si,speed,timeout waiting for SSTP data
-vpn535457630.opengw.net,1757,KR,Korea Republic of,True,dc,7,1.96,3.59,ipv4.download.thinkbroadband.com,2828,49.174.213.183,LG POWERCOMM,Yongsan-dong,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn541518962.opengw.net,1288,KR,Korea Republic of,True,dc,20,0.84,3.36,ipv4.download.thinkbroadband.com,2800,220.92.53.186,Korea Telecom,Gimhae,speed,timeout waiting for SSTP data
-vpn546914302.opengw.net,1338,KR,Korea Republic of,True,dc,9,0.88,3.12,ipv4.download.thinkbroadband.com,2429,27.119.130.58,SK Broadband Co Ltd,Siheung-si,speed,timeout waiting for SSTP data
-vpn548061161.opengw.net,1410,KR,Korea Republic of,True,dc,5,0.85,3.59,ipv4.download.thinkbroadband.com,2804,175.193.150.198,Korea Telecom,Mapo-gu,speed,timeout waiting for SSTP data
-vpn556573101.opengw.net,995,KR,Korea Republic of,True,home,5,,3.55,,2790,125.133.234.180,Korea Telecom,Gyeyang-gu,speed,timeout waiting for SSTP data
-vpn574345971.opengw.net,1283,KR,Korea Republic of,True,home,2,,3.59,,2801,112.186.103.77,Korea Telecom,Yongin-si,speed,timeout waiting for SSTP data
-vpn574906134.opengw.net,1463,KR,Korea Republic of,True,dc,22,0.94,3.5,ipv4.download.thinkbroadband.com,2803,61.253.166.119,SK Broadband Co Ltd,Changwon,speed,[SSL] record layer failure (_ssl.c:1018)
-vpn581884957.opengw.net,1524,KR,Korea Republic of,True,dc,23,,,,3487,121.140.235.198,Korea Telecom,Dongjak-gu,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn598832486.opengw.net,1918,KR,Korea Republic of,True,dc,22,0.79,2.57,ipv4.download.thinkbroadband.com,2541,222.120.134.151,Korea Telecom,Yangju,speed,timeout waiting for SSTP data
-vpn602568162.opengw.net,1828,KR,Korea Republic of,True,dc,4,2.27,3.46,ipv4.download.thinkbroadband.com,2856,49.165.136.156,LG POWERCOMM,Gunpo,speed,timeout waiting for SSTP data
-vpn604885596.opengw.net,995,KR,Korea Republic of,True,home,7,,3.57,,2796,175.193.78.200,Korea Telecom,Seoul,speed,timeout waiting for SSTP data
-vpn607155856.opengw.net,995,KR,Korea Republic of,True,home,3,0.81,3.61,ipv4.download.thinkbroadband.com,2805,211.197.16.109,KORNET,Geumcheon-gu,speed,timeout waiting for SSTP data
-vpn610812005.opengw.net,995,KR,Korea Republic of,True,dc,3,2.33,3.71,ipv4.download.thinkbroadband.com,2815,49.168.191.160,LG POWERCOMM,Goyang-si,speed,timeout waiting for SSTP data
-vpn617762926.opengw.net,995,KR,Korea Republic of,True,home,1,,3.52,,2875,210.222.124.232,Korea Telecom,Yongin-si,speed,timeout waiting for SSTP data
-vpn622620051.opengw.net,995,KR,Korea Republic of,True,dc,7,0.84,3.45,ipv4.download.thinkbroadband.com,2776,175.215.86.26,Korea Telecom,Buk-gu,speed,timeout waiting for SSTP data
-vpn633946009.opengw.net,1353,KR,Korea Republic of,True,dc,2,,1.99,,2864,59.8.32.44,Korea Telecom,Seongnam-si,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn639356368.opengw.net,1600,KR,Korea Republic of,True,dc,1,,3.56,,2689,175.210.238.10,Korea Telecom,Incheon,speed,timeout waiting for SSTP data
-vpn641209777.opengw.net,1743,KR,Korea Republic of,True,dc,3,0.84,3.35,ipv4.download.thinkbroadband.com,2806,121.146.152.111,Korea Telecom,Changwon,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn655966354.opengw.net,995,KR,Korea Republic of,True,dc,2,,3.55,,2792,59.14.221.13,Korea Telecom,Siheung-si,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn658140231.opengw.net,1476,KR,Korea Republic of,True,dc,1,0.73,3.32,ipv4.download.thinkbroadband.com,3066,59.2.25.58,Korea Telecom,Jeongeup,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn658524777.opengw.net,995,KR,Korea Republic of,True,home,1,0.81,3.57,ipv4.download.thinkbroadband.com,2833,59.16.161.61,Korea Telecom,Bucheon-si,speed,timeout waiting for SSTP data
-vpn676945411.opengw.net,1236,KR,Korea Republic of,True,dc,20,2.31,3.7,ipv4.download.thinkbroadband.com,2826,182.226.193.209,LG POWERCOMM,Songpa-gu,speed,timeout waiting for SSTP data
-vpn679853140.opengw.net,995,KR,Korea Republic of,True,dc,4,0.83,3.49,ipv4.download.thinkbroadband.com,2813,112.186.140.145,Korea Telecom,Cheongju-si,speed,timeout waiting for SSTP data
-vpn680974608.opengw.net,1796,KR,Korea Republic of,True,home,7,0.84,3.41,ipv4.download.thinkbroadband.com,2827,118.33.155.5,Korea Telecom,Namyangju,speed,timeout waiting for SSTP data
-vpn686835063.opengw.net,1636,KR,Korea Republic of,True,dc,9,1.93,2.88,ipv4.download.thinkbroadband.com,2848,182.172.196.51,DLIVE,Mapo-gu,speed,timeout waiting for SSTP data
-vpn698373679.opengw.net,1911,KR,Korea Republic of,True,dc,21,,,,3244,123.109.244.227,SK Broadband Co Ltd,Seongnam-si,speed,timeout waiting for SSTP data
-vpn699620341.opengw.net,995,KR,Korea Republic of,True,dc,15,0.88,2.52,ipv4.download.thinkbroadband.com,2443,61.98.1.121,SK Broadband Co Ltd,Suwon,speed,timeout waiting for SSTP data
-vpn702320781.opengw.net,995,KR,Korea Republic of,True,home,1,,3.52,,2786,220.88.21.158,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
-vpn703603871.opengw.net,1272,KR,Korea Republic of,True,dc,15,0.83,3.49,ipv4.download.thinkbroadband.com,2876,210.100.131.144,Korea Telecom,Osan,speed,timeout waiting for SSTP data
-vpn705688819.opengw.net,995,KR,Korea Republic of,True,home,22,,,,3170,141.223.28.100,Pohang University of Science and Technology,Pohang,speed,PPP TCP connect timeout
-vpn716109838.opengw.net,995,KR,Korea Republic of,True,,22,,,,2795,,,,info,PPP TCP connect timeout
-vpn725970097.opengw.net,1815,KR,Korea Republic of,True,dc,5,,3.46,,2811,125.143.112.27,Korea Telecom,Pohang,speed,timeout waiting for SSTP data
-vpn727893093.opengw.net,1292,KR,Korea Republic of,True,dc,16,0.81,3.3,ipv4.download.thinkbroadband.com,3015,121.149.141.149,Korea Telecom,Suncheon,speed,timeout waiting for SSTP data
-vpn757870457.opengw.net,1947,KR,Korea Republic of,True,dc,1,0.83,3.55,ipv4.download.thinkbroadband.com,2801,112.187.148.146,Korea Telecom,Dongdaemun,speed,timeout waiting for SSTP data
-vpn780884596.opengw.net,995,KR,Korea Republic of,True,home,17,,3.65,,2663,59.15.18.145,Korea Telecom,Gwangmyeong-si,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn783575401.opengw.net,1414,KR,Korea Republic of,True,dc,12,,3.53,,2998,119.195.254.240,Korea Telecom,Gyeonggi-do,speed,timeout waiting for SSTP data
-vpn799731089.opengw.net,995,KR,Korea Republic of,True,home,4,,3.06,,2792,121.152.84.15,Korea Telecom,Cheonan,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn813440287.opengw.net,1604,KR,Korea Republic of,True,dc,11,0.87,3.61,ipv4.download.thinkbroadband.com,2817,119.196.23.11,Korea Telecom,Dongjak-gu,speed,timeout waiting for SSTP data
-vpn824185996.opengw.net,1819,KR,Korea Republic of,True,dc,12,,3.55,,3054,118.34.210.174,Korea Telecom,Osan,speed,timeout waiting for SSTP data
-vpn841245340.opengw.net,995,KR,Korea Republic of,True,home,15,0.92,3.33,ipv4.download.thinkbroadband.com,3089,39.122.7.119,SK Broadband Co Ltd,Yangsan,speed,timeout waiting for SSTP data
-vpn846211901.opengw.net,995,KR,Korea Republic of,True,home,8,,3.52,,2524,222.120.242.62,Korea Telecom,Yangju,speed,timeout waiting for SSTP data
-vpn877015796.opengw.net,1251,KR,Korea Republic of,True,dc,9,,3.63,,2794,14.37.222.229,Korea Telecom,Incheon,speed,timeout waiting for SSTP data
-vpn887119329.opengw.net,995,KR,Korea Republic of,True,home,1,,3.1,,2857,115.22.254.25,Korea Telecom,Jinju,speed,timeout waiting for SSTP data
-vpn890053288.opengw.net,995,KR,Korea Republic of,True,home,6,,2.34,,2900,14.45.163.241,Korea Telecom,Yeongju,speed,timeout waiting for SSTP data
-vpn905823011.opengw.net,995,KR,Korea Republic of,True,home,17,,3.58,,2801,121.133.123.215,Korea Telecom,Gangdong-gu,speed,timeout waiting for SSTP data
-vpn910521548.opengw.net,995,KR,Korea Republic of,True,home,2,,3.45,,2821,210.113.75.76,KORNET,Suwon,speed,timeout waiting for SSTP data
-vpn914509666.opengw.net,1327,KR,Korea Republic of,True,dc,4,0.93,3.34,ipv4.download.thinkbroadband.com,2838,114.200.230.80,SK Broadband Co Ltd,Suwon,speed,timeout waiting for SSTP data
-vpn937509069.opengw.net,995,KR,Korea Republic of,True,home,9,,3.29,,2795,222.121.5.240,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
-vpn948322276.opengw.net,1236,KR,Korea Republic of,True,dc,8,0.96,,ipv4.download.thinkbroadband.com,2888,116.123.14.251,SK Broadband Co Ltd,Gangdong-gu,speed,[SSL] record layer failure (_ssl.c:1018)
-vpn953140495.opengw.net,995,KR,Korea Republic of,True,home,15,0.86,3.56,ipv4.download.thinkbroadband.com,2883,175.195.243.160,Korea Telecom,Hwaseong-si,speed,timeout waiting for SSTP data
-vpn954065459.opengw.net,1954,KR,Korea Republic of,True,dc,20,0.88,1.51,ipv4.download.thinkbroadband.com,2908,175.113.163.59,SK Broadband Co Ltd,Gwangmyeong,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn965205483.opengw.net,1800,KR,Korea Republic of,True,dc,18,2.21,3.42,ipv4.download.thinkbroadband.com,2838,124.61.46.28,LG POWERCOMM,Seoul,speed,timeout waiting for SSTP data
-vpn976053103.opengw.net,995,KR,Korea Republic of,True,home,1,0.76,3.4,ipv4.download.thinkbroadband.com,3139,121.144.65.99,Korea Telecom,Saha-gu,speed,timeout waiting for SSTP data
-vpn992704617.opengw.net,995,KR,Korea Republic of,True,home,19,,3.32,,2899,211.250.164.108,Korea Telecom,Hanam,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn995426235.opengw.net,995,KR,Korea Republic of,True,home,1,,0.99,,2826,121.166.28.231,Korea Telecom,Suwon,speed,timeout waiting for SSTP data
-vpn-omari.opengw.net,5555,MA,Morocco,True,home,13,,2.85,,2555,154.144.236.31,CASA 4G MarocTelecom,Temara,speed,timeout waiting for SSTP data
-cetsssa.opengw.net,992,MX,Mexico,True,dc,21,1.35,6.42,ipv4.download.thinkbroadband.com,2025,187.149.107.177,Uninet S.A. de C.V.,Culiacán,speed,timeout waiting for SSTP data
-opengw.opengw.net,443,RO,Romania,True,dc,23,1.51,1.67,ipv4.download.thinkbroadband.com,2407,187.15.134.160,GSL Networks Pty LTD,Tokyo,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn127883491.opengw.net,1574,RU,Russian Federation,True,home,2,,1.93,,3455,178.78.11.169,"JSC ""ER-Telecom Holding"" Krasnodar branch",Krasnodar,speed,timeout waiting for SSTP data
-vpn197025775.opengw.net,1221,RU,Russian Federation,True,dc,3,,2.08,,3394,185.107.165.148,Online LLC,Moscow,speed,timeout waiting for SSTP data
-vpn289054570.opengw.net,1297,RU,Russian Federation,True,home,1,,2.07,,2939,86.102.127.247,Rostelecom Nets,Vladivostok,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn485836114.opengw.net,995,RU,Russian Federation,True,home,13,,2.01,,4118,5.206.4.228,Intersvyaz-2 JSC,Chelyabinsk,speed,timeout waiting for SSTP data
-vpn536329081.opengw.net,1965,RU,Russian Federation,True,dc,10,,2.05,,2871,5.143.7.88,Rostelecom networks,Vladivostok,speed,timeout waiting for SSTP data
-vpn590399715.opengw.net,1532,RU,Russian Federation,True,dc,7,,1.57,,3769,46.43.232.14,"Limited Company ""SiNT""",Achinsk,speed,timeout waiting for SSTP data
-vpn786486028.opengw.net,1550,RU,Russian Federation,True,dc,5,,1.6,,3755,192.145.96.207,Telezon-Seti LLC,Krasnoyarsk,speed,timeout waiting for SSTP data
-vpn853980609.opengw.net,1313,RU,Russian Federation,True,home,6,,1.91,,3648,212.164.8.132,"OJSC ""Sibirtelecom""",Novosibirsk,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn907670030.opengw.net,1254,RU,Russian Federation,True,,4,,1.75,,3085,,,,info,timeout waiting for SSTP data
-vpn941432398.opengw.net,1652,RU,Russian Federation,True,dc,9,,,,3043,212.14.210.87,Telephone&Telegraph Station,Magadan,speed,[SSL] record layer failure (_ssl.c:1018)
-idcrmn2.opengw.net,444,TH,Thailand,True,home,12,0.89,2.4,ipv4.download.thinkbroadband.com,3393,180.183.133.89,Advanced Wireless Network Company Limited,Bangkok,speed,timeout waiting for SSTP data
-vpn645348979.opengw.net,1540,TH,Thailand,True,home,1,0.75,1.99,ipv4.download.thinkbroadband.com,3901,27.130.205.32,Triple T Broadband Public Company Limited,Samut Sakhon,speed,timeout waiting for SSTP data
-jayporeonvpn01.opengw.net,443,TW,Taiwan,True,home,18,0.71,3.43,ipv4.download.thinkbroadband.com,2402,118.166.2.170,"Chunghwa Telecom Co., Ltd.",Taipei,speed,timeout waiting for SSTP data
-sausage.opengw.net,443,TW,Taiwan,True,home,16,0.81,2.97,ipv4.download.thinkbroadband.com,2902,36.228.110.12,"Chunghwa Telecom Co., Ltd.",Hsinchu,speed,timeout waiting for SSTP data
-vpn261703031.opengw.net,1730,VN,Viet Nam,True,dc,3,,,,3609,42.113.255.36,FPT Telecom Company,Hanoi,speed,[SSL: BAD_EXTENSION] bad extension (_ssl.c:1018)
-vpn560167748.opengw.net,1432,VN,Viet Nam,True,dc,1,,,,3323,171.227.33.54,Viettel Corporation,Ho Chi Minh City,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn630618755.opengw.net,1956,VN,Viet Nam,True,home,15,,2.19,,3365,42.113.107.113,FPT Telecom Company,Ha Long,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn894929051.opengw.net,1622,VN,Viet Nam,True,dc,10,,0.56,,4170,42.118.154.223,FPT Telecom Company,Hanoi,speed,timeout waiting for SSTP data
-vpn923730258.opengw.net,1343,VN,Viet Nam,True,home,22,,2.0,,3532,42.115.155.3,FPT Telecom Company,Hanoi,speed,timeout waiting for SSTP data
-vpn925698769.opengw.net,1452,VN,Viet Nam,True,home,3,,2.08,,3028,113.22.61.206,FPT Telecom Company,Haiphong,speed,[SSL] record layer failure (_ssl.c:2592)
-vpn490466648.opengw.net,995,AE,United Arab Emirates,False,,0,,,,,,,,tcp,timed out
-vpn185182539.opengw.net,1444,EG,Egypt,False,,0,,,,,,,,tcp,timed out
-vpn187430919.opengw.net,995,HK,Hong Kong,False,,0,,,,,,,,tcp,timed out
-vpn129951106.opengw.net,1582,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn134976262.opengw.net,1661,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn217152916.opengw.net,1417,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn275519280.opengw.net,1897,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn303866838.opengw.net,1542,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn309430266.opengw.net,1394,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn481731763.opengw.net,1248,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn569909532.opengw.net,1500,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn596969509.opengw.net,1401,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn598950247.opengw.net,1653,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn604651589.opengw.net,1752,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn611290657.opengw.net,1555,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn675037040.opengw.net,1205,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn686706955.opengw.net,1551,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn714841525.opengw.net,1400,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn758610310.opengw.net,1891,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn843795415.opengw.net,1991,JP,Japan,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
-vpn926161461.opengw.net,1875,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn953698594.opengw.net,1404,JP,Japan,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
-vpn965182772.opengw.net,1271,JP,Japan,False,,0,,,,,,,,tcp,timed out
-vpn187704976.opengw.net,1592,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn227656524.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn375744795.opengw.net,1602,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn384923948.opengw.net,1203,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn430997116.opengw.net,1476,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn536497886.opengw.net,1281,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn598997421.opengw.net,1921,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn636324442.opengw.net,1969,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn687618522.opengw.net,1666,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn768864831.opengw.net,1762,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn819358376.opengw.net,1298,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn918106312.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
-vpn149170155.opengw.net,1364,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
-vpn439081314.opengw.net,1442,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
-vpn812971513.opengw.net,995,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
-vpn556220504.opengw.net,1964,TH,Thailand,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
-vpn558150618.opengw.net,1703,TH,Thailand,False,,0,,,,,,,,tcp,timed out
-vpn584855640.opengw.net,1893,US,United States,False,,0,,,,,,,,tcp,timed out
-vpn237315390.opengw.net,1752,VN,Viet Nam,False,,0,,,,,,,,tcp,timed out
-vpn948712375.opengw.net,1330,VN,Viet Nam,False,,0,,,,,,,,tcp,timed out
+wams.opengw.net,992,AE,United Arab Emirates,True,home,1,0.96,,ipv4.download.thinkbroadband.com,3859,83.110.98.6,Emirates Telecommunications Corporation,Dibba Al-Fujairah,speed,[SSL: BAD_EXTENSION] bad extension (_ssl.c:1018)
+vpn759761201.opengw.net,1521,AU,Australia,True,dc,21,0.76,2.81,ipv4.download.thinkbroadband.com,2929,125.253.56.120,SUPERLOOP (AUSTRALIA) PTY LTD,Perth,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn421416087.opengw.net,995,CA,Canada,True,home,9,1.45,,ipv4.download.thinkbroadband.com,2315,70.79.228.66,Shaw Communications,Richmond,speed,timeout waiting for SSTP data
+vpn491348575.opengw.net,1697,CA,Canada,True,home,5,1.67,4.58,ipv4.download.thinkbroadband.com,2088,184.68.30.115,Shaw Communications,Vancouver,speed,timeout waiting for SSTP data
+intranet-bpkskaboki.opengw.net,443,ID,Indonesia,True,dc,22,,2.2,,2983,182.9.225.20,PT Telekomunikasi Selular Indonesia,Palembang,speed,timeout waiting for SSTP data
+vpn958898290.opengw.net,1887,IN,India,True,home,1,,2.21,,3825,103.163.95.84,Interjet India Private Limited,Puducherry,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn398736484.opengw.net,1723,IT,Italy,True,dc,21,1.16,2.29,ipv4.download.thinkbroadband.com,2753,45.89.183.66,Retelit Digital Services S.p.A.,Luni,speed,timeout waiting for SSTP data
+laud.opengw.net,443,JP,Japan,True,,24,,2.92,,2422,,,,info,PPP TCP connect timeout
+vpn102042272.opengw.net,1822,JP,Japan,True,home,1,0.95,3.64,ipv4.download.thinkbroadband.com,2810,14.132.71.245,"Chubu Telecommunications Company, Inc.",Shizuoka,speed,timeout waiting for SSTP data
+vpn102800483.opengw.net,1475,JP,Japan,True,dc,14,0.95,3.73,ipv4.download.thinkbroadband.com,2687,124.219.214.107,Sony Network Communications Inc.,Moriya,speed,timeout waiting for SSTP data
+vpn110639311.opengw.net,1764,JP,Japan,True,dc,10,0.53,3.45,ipv4.download.thinkbroadband.com,2837,106.153.16.152,Kddi Corporation,Kanazawa,speed,timeout waiting for SSTP data
+vpn122916437.opengw.net,1558,JP,Japan,True,dc,14,0.96,3.73,ipv4.download.thinkbroadband.com,3102,123.48.124.169,"Chubu Telecommunications Company, Inc.",Hamamatsu,speed,timeout waiting for SSTP data
+vpn137812529.opengw.net,1240,JP,Japan,True,dc,2,,,,2839,218.228.192.151,OPTAGE Inc.,Osaka,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn141040696.opengw.net,1408,JP,Japan,True,home,3,0.64,,ipv4.download.thinkbroadband.com,3080,183.177.159.21,ARTERIA Networks Corporation,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn152852888.opengw.net,1613,JP,Japan,True,home,17,0.77,3.77,ipv4.download.thinkbroadband.com,2679,153.211.115.164,Open Computer Network,Higashiōmiya,speed,timeout waiting for SSTP data
+vpn152857105.opengw.net,1924,JP,Japan,True,dc,11,,1.28,,2713,222.6.221.181,Kddi Corporation,Noda,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn164481805.opengw.net,1726,JP,Japan,True,dc,5,0.81,3.94,ipv4.download.thinkbroadband.com,2739,115.37.39.235,"Chubu Telecommunications Company, Inc.",Ichinomiya,speed,timeout waiting for SSTP data
+vpn177768996.opengw.net,1635,JP,Japan,True,dc,15,0.98,3.68,ipv4.download.thinkbroadband.com,2741,221.44.173.56,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn179734162.opengw.net,1441,JP,Japan,True,home,22,0.96,3.65,ipv4.download.thinkbroadband.com,2743,59.130.189.26,"Chubu Telecommunications Company, Inc.",Kakegawa,speed,timeout waiting for SSTP data
+vpn184169581.opengw.net,1713,JP,Japan,True,home,12,,2.73,,3944,61.46.101.187,JCOM,Sanda Shi,speed,timeout waiting for SSTP data
+vpn188811855.opengw.net,1891,JP,Japan,True,dc,8,0.91,3.14,ipv4.download.thinkbroadband.com,2278,126.88.122.179,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn219429935.opengw.net,1640,JP,Japan,True,dc,16,0.95,3.84,ipv4.download.thinkbroadband.com,2702,14.132.92.47,"Chubu Telecommunications Company, Inc.",Nagoya,speed,timeout waiting for SSTP data
+vpn219650000.opengw.net,1254,JP,Japan,True,dc,2,0.97,4.01,ipv4.download.thinkbroadband.com,2643,116.67.212.245,Sony Network Communications Inc,Edogawa City,speed,timeout waiting for SSTP data
+vpn223004427.opengw.net,1424,JP,Japan,True,home,1,,,,6127,183.176.167.31,"STNet, Incorporated",Takamatsu,speed,timeout waiting for SSTP data
+vpn250920860.opengw.net,1895,JP,Japan,True,dc,11,0.82,2.75,ipv4.download.thinkbroadband.com,2841,210.198.250.157,Kddi Corporation,Obihiro,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn254588575.opengw.net,1856,JP,Japan,True,dc,7,0.96,3.96,ipv4.download.thinkbroadband.com,2648,159.28.242.14,Sony Network Communications Inc,Arakawa,speed,timeout waiting for SSTP data
+vpn258563631.opengw.net,1423,JP,Japan,True,home,20,0.94,3.81,ipv4.download.thinkbroadband.com,2676,153.232.30.226,NTT Communications Corporation,Tokyo,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn259839631.opengw.net,1624,JP,Japan,True,dc,1,0.97,4.08,ipv4.download.thinkbroadband.com,2828,147.192.116.48,Sony Network Communications Inc,Moriya,speed,timeout waiting for SSTP data
+vpn313136357.opengw.net,1253,JP,Japan,True,dc,3,0.64,4.1,ipv4.download.thinkbroadband.com,2663,118.156.137.250,Kddi Corporation,Kanamechō,speed,timeout waiting for SSTP data
+vpn316730005.opengw.net,1235,JP,Japan,True,dc,6,,3.92,,2735,14.101.210.162,Kddi Corporation,Ōta,speed,timeout waiting for SSTP data
+vpn321779845.opengw.net,1947,JP,Japan,True,dc,1,0.8,3.27,ipv4.download.thinkbroadband.com,2772,106.159.95.188,Kddi Corporation,Tomiya,speed,timeout waiting for SSTP data
+vpn327378838.opengw.net,1710,JP,Japan,True,home,1,0.99,4.09,ipv4.download.thinkbroadband.com,2831,118.240.146.167,Sony Network Communications Inc,Tokyo,speed,timeout waiting for SSTP data
+vpn327481064.opengw.net,1230,JP,Japan,True,dc,2,0.99,3.77,ipv4.download.thinkbroadband.com,2725,60.95.76.42,SoftBank Corp.,Minato-ku,speed,[SSL: BAD_EXTENSION] bad extension (_ssl.c:1018)
+vpn338576803.opengw.net,1818,JP,Japan,True,dc,4,,4.05,,2751,106.179.215.196,Kddi Corporation,Tokyo,speed,timeout waiting for SSTP data
+vpn341010937.opengw.net,1262,JP,Japan,True,dc,22,0.57,2.91,ipv4.download.thinkbroadband.com,2888,222.5.66.192,DION (KDDI CORPORATION),Kuranamidai,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn344602886.opengw.net,1566,JP,Japan,True,home,7,,,,3010,113.153.88.108,DION (KDDI CORPORATION),Higashinakajima,speed,timeout waiting for SSTP data
+vpn345560266.opengw.net,1440,JP,Japan,True,dc,3,0.99,,ipv4.download.thinkbroadband.com,2797,221.49.38.126,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn400535836.opengw.net,1916,JP,Japan,True,dc,3,0.87,,ipv4.download.thinkbroadband.com,2640,36.12.244.203,Kddi Corporation,Igusa,speed,timeout waiting for SSTP data
+vpn402080134.opengw.net,1486,JP,Japan,True,dc,2,,3.14,,2939,119.170.233.13,"JCOM Co., Ltd.",Kitakyushu,speed,timeout waiting for SSTP data
+vpn440254653.opengw.net,1665,JP,Japan,True,home,2,0.89,,ipv4.download.thinkbroadband.com,2713,180.1.215.15,NTT Communications Corporation,Yokohama,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn456065584.opengw.net,1511,JP,Japan,True,dc,9,0.79,3.85,ipv4.download.thinkbroadband.com,2722,114.180.104.207,NTT Communications Corporation,Takasaki,speed,timeout waiting for SSTP data
+vpn460276134.opengw.net,1234,JP,Japan,True,dc,7,0.81,3.04,ipv4.download.thinkbroadband.com,2786,14.101.82.147,Kddi Corporation,Nagasaki,speed,timeout waiting for SSTP data
+vpn462278742.opengw.net,1465,JP,Japan,True,dc,11,0.6,3.47,ipv4.download.thinkbroadband.com,2770,115.37.56.228,"Chubu Telecommunications Company, Inc.",Nisshin,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn463711899.opengw.net,1551,JP,Japan,True,home,4,0.97,4.07,ipv4.download.thinkbroadband.com,2602,223.132.252.176,So-net Entertainment Corporation,Tokyo,speed,timeout waiting for SSTP data
+vpn472453679.opengw.net,1219,JP,Japan,True,dc,1,0.85,3.67,ipv4.download.thinkbroadband.com,2747,222.8.219.52,DION (KDDI CORPORATION),Koga,speed,timeout waiting for SSTP data
+vpn475680815.opengw.net,1376,JP,Japan,True,dc,2,0.93,,ipv4.download.thinkbroadband.com,2830,126.34.160.86,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn480.opengw.net,5555,JP,Japan,True,home,24,1.01,3.87,ipv4.download.thinkbroadband.com,2973,110.163.142.88,"NTT DOCOMO, INC.",Urayasu,speed,timeout waiting for SSTP data
+vpn534120936.opengw.net,1998,JP,Japan,True,dc,1,0.9,4.16,ipv4.download.thinkbroadband.com,2945,106.161.34.210,Kddi Corporation,Tagara,speed,timeout waiting for SSTP data
+vpn540913720.opengw.net,1560,JP,Japan,True,home,1,0.75,2.32,ipv4.download.thinkbroadband.com,3178,110.134.132.27,"JCOM Co., Ltd.",Tokiwa,speed,timeout waiting for SSTP data
+vpn570604960.opengw.net,1868,JP,Japan,True,home,1,,,,4039,183.177.148.20,ARTERIA Networks Corporation,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn583764032.opengw.net,1464,JP,Japan,True,dc,16,0.93,3.35,ipv4.download.thinkbroadband.com,2683,115.36.204.213,"Chubu Telecommunications Company, Inc.",Hamamatsu,speed,timeout waiting for SSTP data
+vpn603234016.opengw.net,1768,JP,Japan,True,home,18,0.74,3.17,ipv4.download.thinkbroadband.com,3460,220.109.55.183,NTT Communications Corporation,Chiyoda City,speed,timeout waiting for SSTP data
+vpn608264323.opengw.net,1514,JP,Japan,True,dc,1,0.88,3.69,ipv4.download.thinkbroadband.com,2728,112.136.1.215,"ZTV Co., ltd",Ōtsu,speed,timeout waiting for SSTP data
+vpn609012261.opengw.net,1276,JP,Japan,True,home,3,0.47,1.79,ipv4.download.thinkbroadband.com,3231,60.236.15.105,BIGLOBE Inc.,Higashikubochō,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn614343992.opengw.net,1270,JP,Japan,True,dc,10,0.9,,ipv4.download.thinkbroadband.com,2773,126.91.218.92,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn617491321.opengw.net,1931,JP,Japan,True,home,2,0.98,,ipv4.download.thinkbroadband.com,3453,121.114.151.26,NTT Communications Corporation,Nakano City,speed,timeout waiting for SSTP data
+vpn622613092.opengw.net,1496,JP,Japan,True,home,1,0.78,2.43,ipv4.download.thinkbroadband.com,3017,221.188.59.229,NTT Communications Corporation,Nagoya,speed,timeout waiting for SSTP data
+vpn652870061.opengw.net,1780,JP,Japan,True,home,2,0.97,3.78,ipv4.download.thinkbroadband.com,2756,126.71.89.132,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
+vpn660985126.opengw.net,1757,JP,Japan,True,dc,8,,3.96,,2739,39.111.4.69,Sony Network Communications Inc,Asagayakita,speed,timeout waiting for SSTP data
+vpn661982.opengw.net,7551,JP,Japan,True,dc,14,0.91,3.87,ipv4.download.thinkbroadband.com,2727,14.10.120.193,Kddi Corporation,Amagasaki,speed,timeout waiting for SSTP data
+vpn678504843.opengw.net,1926,JP,Japan,True,dc,21,0.94,3.92,ipv4.download.thinkbroadband.com,2701,219.104.84.18,Japan Network Information Center,Moriguchi Shi,speed,timeout waiting for SSTP data
+vpn683539447.opengw.net,1549,JP,Japan,True,dc,23,0.87,3.46,ipv4.download.thinkbroadband.com,2792,61.25.149.161,"JCOM Co., Ltd.",Toyama,speed,timeout waiting for SSTP data
+vpn693017146.opengw.net,1545,JP,Japan,True,dc,2,0.94,3.37,ipv4.download.thinkbroadband.com,4862,218.131.41.95,SoftBank Corp.,Minato,speed,[SSL] record layer failure (_ssl.c:1018)
+vpn693348819.opengw.net,1602,JP,Japan,True,home,1,0.94,3.51,ipv4.download.thinkbroadband.com,2771,115.38.22.45,"Chubu Telecommunications Company, Inc.",Ueda,speed,timeout waiting for SSTP data
+vpn699884073.opengw.net,1556,JP,Japan,True,home,4,0.93,2.1,ipv4.download.thinkbroadband.com,2751,126.36.211.204,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
+vpn711674780.opengw.net,1603,JP,Japan,True,dc,23,0.79,1.59,ipv4.download.thinkbroadband.com,2772,124.32.30.64,ARTERIA Networks Corporation,Higashiosaka,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn711677985.opengw.net,1730,JP,Japan,True,dc,11,0.93,3.72,ipv4.download.thinkbroadband.com,2770,60.126.0.2,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:1018)
+vpn715779327.opengw.net,1472,JP,Japan,True,home,2,0.87,3.34,ipv4.download.thinkbroadband.com,2816,203.165.84.210,Jupiter Telecommunication Co. Ltd,Taitō City,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn718496341.opengw.net,1625,JP,Japan,True,home,1,,,,4339,110.135.205.179,"JCOM Co., Ltd.",Tokuriki,speed,timeout waiting for SSTP data
+vpn736504438.opengw.net,1834,JP,Japan,True,home,14,0.92,3.2,ipv4.download.thinkbroadband.com,2790,126.103.157.140,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
+vpn774927062.opengw.net,1776,JP,Japan,True,home,12,0.98,3.98,ipv4.download.thinkbroadband.com,2861,118.105.225.45,"Chubu Telecommunications Company, Inc.",Nisshin,speed,timeout waiting for SSTP data
+vpn804890292.opengw.net,1724,JP,Japan,True,dc,3,0.92,,ipv4.download.thinkbroadband.com,2834,126.77.185.5,SoftBank Corp.,Minato,speed,[SSL: BAD_EXTENSION] bad extension (_ssl.c:1018)
+vpn810318235.opengw.net,1628,JP,Japan,True,dc,2,0.85,3.09,ipv4.download.thinkbroadband.com,3017,124.209.182.165,DION (KDDI CORPORATION),Ikegami,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn813516587.opengw.net,1534,JP,Japan,True,dc,14,0.96,3.72,ipv4.download.thinkbroadband.com,2745,123.48.124.169,"Chubu Telecommunications Company, Inc.",Hamamatsu,speed,timeout waiting for SSTP data
+vpn836545670.opengw.net,1910,JP,Japan,True,dc,22,0.96,4.14,ipv4.download.thinkbroadband.com,2604,133.114.158.248,Sony Network Communications Inc.,Suge,speed,timeout waiting for SSTP data
+vpn844197835.opengw.net,1411,JP,Japan,True,home,2,0.94,3.69,ipv4.download.thinkbroadband.com,2750,115.37.174.56,"Chubu Telecommunications Company, Inc.",Iwata,speed,timeout waiting for SSTP data
+vpn857348997.opengw.net,1544,JP,Japan,True,dc,2,0.84,3.07,ipv4.download.thinkbroadband.com,2831,59.135.18.252,DION (KDDI CORPORATION),Izumi Shi,speed,timeout waiting for SSTP data
+vpn858316771.opengw.net,1864,JP,Japan,True,dc,1,0.87,4.1,ipv4.download.thinkbroadband.com,2829,106.176.30.209,Kddi Corporation,Hiratsuka,speed,timeout waiting for SSTP data
+vpn870799933.opengw.net,1480,JP,Japan,True,dc,1,0.98,3.93,ipv4.download.thinkbroadband.com,3007,121.81.4.205,OPTAGE Inc.,Takatsuki,speed,timeout waiting for SSTP data
+vpn880633907.opengw.net,1767,JP,Japan,True,dc,8,0.99,3.81,ipv4.download.thinkbroadband.com,2692,60.149.136.130,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:1018)
+vpn882137641.opengw.net,1648,JP,Japan,True,dc,2,0.83,3.33,ipv4.download.thinkbroadband.com,2327,125.55.149.142,DION (KDDI CORPORATION),Kashima,speed,timeout waiting for SSTP data
+vpn894793773.opengw.net,1720,JP,Japan,True,home,1,0.9,3.11,ipv4.download.thinkbroadband.com,2871,153.189.62.27,NTT Communications Corporation,Nagasaki,speed,timeout waiting for SSTP data
+vpn927671187.opengw.net,1759,JP,Japan,True,home,17,0.99,4.08,ipv4.download.thinkbroadband.com,2669,180.36.178.143,NTT Communications Corporation,Tokyo,speed,timeout waiting for SSTP data
+vpn933450169.opengw.net,1309,JP,Japan,True,dc,14,,3.63,,2777,106.153.7.87,Kddi Corporation,Sakura,speed,timeout waiting for SSTP data
+vpn933716554.opengw.net,1954,JP,Japan,True,,1,0.6,2.81,ipv4.download.thinkbroadband.com,3086,,,,info,timeout waiting for SSTP data
+vpn938522983.opengw.net,1822,JP,Japan,True,home,22,0.95,3.68,ipv4.download.thinkbroadband.com,2820,153.218.21.241,NTT Communications Corporation,Osaka,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn945367046.opengw.net,1857,JP,Japan,True,home,2,0.82,3.14,ipv4.download.thinkbroadband.com,3042,42.124.61.191,TOKAI Communications Corporation,Yaizu,speed,timeout waiting for SSTP data
+vpn946019409.opengw.net,1557,JP,Japan,True,dc,1,0.92,3.87,ipv4.download.thinkbroadband.com,2790,126.130.164.3,SoftBank Corp.,Minato,speed,timeout waiting for SSTP data
+vpn966358282.opengw.net,995,JP,Japan,True,dc,8,0.77,3.88,ipv4.download.thinkbroadband.com,2715,162.43.67.81,XSERVER Inc.,Chiyoda City,speed,timeout waiting for SSTP data
+vpn969156711.opengw.net,1767,JP,Japan,True,dc,24,0.96,,ipv4.download.thinkbroadband.com,2742,60.93.146.33,SoftBank Corp.,Minato-ku,speed,[SSL] record layer failure (_ssl.c:1018)
+vpn981288372.opengw.net,1925,JP,Japan,True,dc,6,0.09,,ipv4.download.thinkbroadband.com,2881,42.148.153.40,"JCOM Co., Ltd.",Sakuragawa,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn111698412.opengw.net,1743,KR,Korea Republic of,True,dc,20,2.33,,ipv4.download.thinkbroadband.com,2865,112.214.34.62,DLIVE,Nowon-gu,speed,timeout waiting for SSTP data
+vpn116676185.opengw.net,995,KR,Korea Republic of,True,home,2,0.87,2.92,ipv4.download.thinkbroadband.com,2960,222.238.35.46,SK Broadband Co Ltd,Seoul,speed,timeout waiting for SSTP data
+vpn122709402.opengw.net,995,KR,Korea Republic of,True,home,1,,3.49,,2858,211.226.34.183,Korea Telecom,Anyang-si,speed,timeout waiting for SSTP data
+vpn131652721.opengw.net,995,KR,Korea Republic of,True,dc,17,,3.42,,2869,222.120.20.69,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
+vpn138569675.opengw.net,1652,KR,Korea Republic of,True,dc,1,0.81,3.2,ipv4.download.thinkbroadband.com,2874,121.148.48.93,Korea Telecom,Seo-gu,speed,timeout waiting for SSTP data
+vpn144440524.opengw.net,995,KR,Korea Republic of,True,home,4,,3.15,,2837,121.139.54.121,Korea Telecom,Anyang-si,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn162822314.opengw.net,1672,KR,Korea Republic of,True,dc,3,0.86,3.32,ipv4.download.thinkbroadband.com,2917,211.245.102.129,SK Broadband Co Ltd,Sejong,speed,timeout waiting for SSTP data
+vpn171414934.opengw.net,1584,KR,Korea Republic of,True,home,1,,3.4,,2868,59.23.196.169,Korea Telecom,Suseong-gu,speed,timeout waiting for SSTP data
+vpn183424407.opengw.net,995,KR,Korea Republic of,True,dc,24,0.78,0.43,ipv4.download.thinkbroadband.com,2845,112.170.131.60,Korea Telecom,Anyang-si,speed,timeout waiting for SSTP data
+vpn191986052.opengw.net,1564,KR,Korea Republic of,True,home,1,,1.52,,2854,211.107.91.211,Korea Telecom,Yongsan-gu,speed,timeout waiting for SSTP data
+vpn195809939.opengw.net,1632,KR,Korea Republic of,True,dc,6,0.83,3.47,ipv4.download.thinkbroadband.com,2862,221.165.229.38,Korea Telecom,Guri-si,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn196454265.opengw.net,1666,KR,Korea Republic of,True,home,1,,3.48,,2846,220.79.122.22,Korea Telecom,Seo-gu,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn201053993.opengw.net,1386,KR,Korea Republic of,True,dc,19,,3.42,,2859,121.161.33.240,Korea Telecom,Goyang-si,speed,timeout waiting for SSTP data
+vpn215791012.opengw.net,1274,KR,Korea Republic of,True,dc,20,0.81,,ipv4.download.thinkbroadband.com,3114,118.33.153.180,Korea Telecom,Namyangju,speed,timeout waiting for SSTP data
+vpn255201593.opengw.net,1338,KR,Korea Republic of,True,dc,1,0.76,2.05,ipv4.download.thinkbroadband.com,2861,220.77.208.68,Korea Telecom,Yangpyeong,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn270057496.opengw.net,995,KR,Korea Republic of,True,home,11,,3.24,,2834,210.99.126.188,Korea Telecom-PUBNET,Jeju City,speed,timeout waiting for SSTP data
+vpn271901051.opengw.net,995,KR,Korea Republic of,True,home,13,,3.46,,3151,112.172.66.114,Korea Telecom,Dong-gu,speed,timeout waiting for SSTP data
+vpn303071146.opengw.net,1684,KR,Korea Republic of,True,dc,2,0.91,3.52,ipv4.download.thinkbroadband.com,2742,116.121.173.112,SK Broadband Co Ltd,Suwon,speed,timeout waiting for SSTP data
+vpn314046814.opengw.net,1792,KR,Korea Republic of,True,dc,7,0.78,3.35,ipv4.download.thinkbroadband.com,2840,221.151.149.159,Korea Telecom,Gangseo-gu,speed,timeout waiting for SSTP data
+vpn325202957.opengw.net,1772,KR,Korea Republic of,True,dc,7,0.77,3.51,ipv4.download.thinkbroadband.com,2836,121.135.160.138,Korea Telecom,Gangnam-gu,speed,timeout waiting for SSTP data
+vpn326464611.opengw.net,995,KR,Korea Republic of,True,home,4,,,,3317,14.42.117.153,Korea Telecom,Pocheon-si,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn354665789.opengw.net,1663,KR,Korea Republic of,True,dc,2,0.83,3.35,ipv4.download.thinkbroadband.com,2872,125.139.168.226,Korea Telecom,Wanju,speed,timeout waiting for SSTP data
+vpn390470085.opengw.net,1214,KR,Korea Republic of,True,dc,1,,3.46,,2859,112.171.48.98,Korea Telecom,Gwanak-gu,speed,timeout waiting for SSTP data
+vpn402044879.opengw.net,995,KR,Korea Republic of,True,home,18,,3.28,,2882,211.185.142.93,Korea Telecom,Samcheok,speed,timeout waiting for SSTP data
+vpn406459834.opengw.net,1435,KR,Korea Republic of,True,home,2,0.93,3.51,ipv4.download.thinkbroadband.com,2823,219.240.6.118,SK Broadband Co Ltd,Osan,speed,timeout waiting for SSTP data
+vpn407304289.opengw.net,1758,KR,Korea Republic of,True,home,1,,3.47,,2834,175.198.39.36,Korea Telecom,Yeongdeungpo-gu,speed,timeout waiting for SSTP data
+vpn416596627.opengw.net,995,KR,Korea Republic of,True,home,11,,1.54,,2797,119.203.61.190,Korea Telecom,Seo-gu,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn451643961.opengw.net,995,KR,Korea Republic of,True,home,10,,3.45,,2839,210.178.21.127,Korea Telecom,Goyang-si,speed,timeout waiting for SSTP data
+vpn457942597.opengw.net,1900,KR,Korea Republic of,True,dc,3,0.81,3.02,ipv4.download.thinkbroadband.com,2853,121.128.227.42,Korea Telecom,Seongbuk-gu,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn460606822.opengw.net,1427,KR,Korea Republic of,True,dc,7,0.82,,ipv4.download.thinkbroadband.com,2472,223.131.48.244,SK Broadband Co Ltd,Seoul,speed,timeout waiting for SSTP data
+vpn461782020.opengw.net,995,KR,Korea Republic of,True,home,1,0.87,3.23,ipv4.download.thinkbroadband.com,2913,180.65.115.60,SK Broadband Co Ltd,Seoul,speed,timeout waiting for SSTP data
+vpn473636602.opengw.net,1429,KR,Korea Republic of,True,dc,1,,3.44,,2866,220.70.7.199,Korea Telecom,Seoul,speed,timeout waiting for SSTP data
+vpn485780034.opengw.net,1710,KR,Korea Republic of,True,dc,3,0.82,3.36,ipv4.download.thinkbroadband.com,2346,121.177.105.70,Korea Telecom,Changwon,speed,timeout waiting for SSTP data
+vpn493435183.opengw.net,1808,KR,Korea Republic of,True,dc,9,,3.51,,2788,211.226.71.219,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
+vpn514496438.opengw.net,995,KR,Korea Republic of,True,home,1,0.94,3.4,ipv4.download.thinkbroadband.com,2891,1.236.29.27,SK Broadband Co Ltd,Nowon-gu,speed,timeout waiting for SSTP data
+vpn517964018.opengw.net,1323,KR,Korea Republic of,True,dc,7,0.89,3.14,ipv4.download.thinkbroadband.com,2398,1.240.128.118,SK Broadband Co Ltd,Namyangju,speed,timeout waiting for SSTP data
+vpn521310356.opengw.net,995,KR,Korea Republic of,True,home,11,,3.37,,2873,211.174.64.187,Korea Telecom,Pyeongtaek-si,speed,timeout waiting for SSTP data
+vpn541518962.opengw.net,1288,KR,Korea Republic of,True,dc,21,0.83,3.3,ipv4.download.thinkbroadband.com,2854,220.92.53.186,Korea Telecom,Gimhae,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn548061161.opengw.net,1410,KR,Korea Republic of,True,dc,6,0.81,3.51,ipv4.download.thinkbroadband.com,2806,175.193.150.198,Korea Telecom,Mapo-gu,speed,timeout waiting for SSTP data
+vpn556573101.opengw.net,995,KR,Korea Republic of,True,home,6,,3.52,,2843,125.133.234.180,Korea Telecom,Gyeyang-gu,speed,timeout waiting for SSTP data
+vpn572003415.opengw.net,995,KR,Korea Republic of,True,home,1,,3.51,,2834,211.222.252.88,Korea Telecom,Gimpo-si,speed,timeout waiting for SSTP data
+vpn574345971.opengw.net,1283,KR,Korea Republic of,True,home,3,,3.52,,2817,220.78.3.70,Korea Telecom,Yongin-si,speed,timeout waiting for SSTP data
+vpn574906134.opengw.net,1463,KR,Korea Republic of,True,home,23,0.91,,ipv4.download.thinkbroadband.com,2814,114.205.246.213,SK Broadband Co Ltd,Yesan,speed,[SSL] record layer failure (_ssl.c:1018)
+vpn581884957.opengw.net,1524,KR,Korea Republic of,True,dc,24,0.84,3.51,ipv4.download.thinkbroadband.com,2843,121.140.235.198,Korea Telecom,Dongjak-gu,speed,timeout waiting for SSTP data
+vpn598832486.opengw.net,1918,KR,Korea Republic of,True,dc,23,0.83,3.44,ipv4.download.thinkbroadband.com,2888,222.120.134.151,Korea Telecom,Yangju,speed,timeout waiting for SSTP data
+vpn602568162.opengw.net,1828,KR,Korea Republic of,True,dc,5,2.24,3.26,ipv4.download.thinkbroadband.com,2856,49.165.136.156,LG POWERCOMM,Gunpo,speed,timeout waiting for SSTP data
+vpn604885596.opengw.net,995,KR,Korea Republic of,True,home,8,,3.48,,2854,221.146.186.27,Korea Telecom,Seongdong-gu,speed,timeout waiting for SSTP data
+vpn607155856.opengw.net,995,KR,Korea Republic of,True,home,4,,3.56,,2817,211.197.16.109,KORNET,Geumcheon-gu,speed,timeout waiting for SSTP data
+vpn609211715.opengw.net,1679,KR,Korea Republic of,True,dc,1,,3.34,,2870,125.139.26.49,Korea Telecom,Muju-gun,speed,timeout waiting for SSTP data
+vpn633946009.opengw.net,1353,KR,Korea Republic of,True,dc,3,,3.2,,2853,59.8.32.44,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
+vpn639356368.opengw.net,1600,KR,Korea Republic of,True,dc,2,,3.52,,2719,175.210.238.10,Korea Telecom,Incheon,speed,timeout waiting for SSTP data
+vpn641209777.opengw.net,1743,KR,Korea Republic of,True,dc,4,0.8,3.33,ipv4.download.thinkbroadband.com,2829,121.146.152.111,Korea Telecom,Changwon,speed,timeout waiting for SSTP data
+vpn658140231.opengw.net,1476,KR,Korea Republic of,True,dc,2,0.81,3.33,ipv4.download.thinkbroadband.com,3062,59.2.25.58,Korea Telecom,Jeongeup,speed,timeout waiting for SSTP data
+vpn658524777.opengw.net,995,KR,Korea Republic of,True,home,2,,3.47,,2997,59.16.171.198,Korea Telecom,Bucheon-si,speed,timeout waiting for SSTP data
+vpn661874774.opengw.net,995,KR,Korea Republic of,True,home,1,,3.37,,2838,211.199.12.32,Korea Telecom,Suseong-gu,speed,timeout waiting for SSTP data
+vpn676945411.opengw.net,1236,KR,Korea Republic of,True,dc,21,2.21,3.56,ipv4.download.thinkbroadband.com,2894,182.226.193.209,LG POWERCOMM,Songpa-gu,speed,timeout waiting for SSTP data
+vpn679853140.opengw.net,995,KR,Korea Republic of,True,dc,5,0.78,3.46,ipv4.download.thinkbroadband.com,2837,112.186.140.145,Korea Telecom,Cheongju-si,speed,timeout waiting for SSTP data
+vpn698373679.opengw.net,1911,KR,Korea Republic of,True,dc,22,0.8,2.51,ipv4.download.thinkbroadband.com,3039,123.109.244.227,SK Broadband Co Ltd,Seongnam-si,speed,timeout waiting for SSTP data
+vpn699620341.opengw.net,995,KR,Korea Republic of,True,dc,16,0.39,,ipv4.download.thinkbroadband.com,2579,61.98.1.121,SK Broadband Co Ltd,Suwon,speed,timeout waiting for SSTP data
+vpn701561709.opengw.net,995,KR,Korea Republic of,True,home,1,,3.45,,2873,118.36.180.78,Korea Telecom,Gwanak-gu,speed,timeout waiting for SSTP data
+vpn702320781.opengw.net,995,KR,Korea Republic of,True,home,2,,3.49,,2344,221.153.118.237,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
+vpn703603871.opengw.net,1272,KR,Korea Republic of,True,dc,16,0.81,3.31,ipv4.download.thinkbroadband.com,2901,210.100.131.144,Korea Telecom,Osan,speed,timeout waiting for SSTP data
+vpn705444347.opengw.net,995,KR,Korea Republic of,True,home,1,,3.53,,2879,175.210.130.80,Korea Telecom,Gimpo-si,speed,timeout waiting for SSTP data
+vpn716109838.opengw.net,995,KR,Korea Republic of,True,home,23,,3.44,,2841,119.205.53.241,Korea Telecom,Chuncheon,speed,timeout waiting for SSTP data
+vpn727893093.opengw.net,1292,KR,Korea Republic of,True,dc,17,0.68,0.49,ipv4.download.thinkbroadband.com,3011,121.149.141.149,Korea Telecom,Suncheon,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn757870457.opengw.net,1947,KR,Korea Republic of,True,dc,2,0.78,2.97,ipv4.download.thinkbroadband.com,2879,112.187.148.146,Korea Telecom,Dongdaemun,speed,timeout waiting for SSTP data
+vpn768922134.opengw.net,995,KR,Korea Republic of,True,home,1,0.89,3.36,ipv4.download.thinkbroadband.com,2848,114.207.218.56,SK Broadband Co Ltd,Hanam,speed,timeout waiting for SSTP data
+vpn780884596.opengw.net,995,KR,Korea Republic of,True,home,18,,3.52,,2721,59.15.18.145,Korea Telecom,Gwangmyeong-si,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn783575401.opengw.net,1414,KR,Korea Republic of,True,home,13,,3.55,,2816,121.159.190.20,Korea Telecom,Yuseong-gu,speed,timeout waiting for SSTP data
+vpn799731089.opengw.net,995,KR,Korea Republic of,True,home,5,,3.16,,2847,121.152.63.103,Korea Telecom,Asan,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn801841079.opengw.net,1627,KR,Korea Republic of,True,home,1,0.79,3.05,ipv4.download.thinkbroadband.com,2849,221.162.216.59,Korea Telecom,Sasang-gu,speed,timeout waiting for SSTP data
+vpn813440287.opengw.net,1604,KR,Korea Republic of,True,dc,12,0.83,3.52,ipv4.download.thinkbroadband.com,2834,119.196.23.11,Korea Telecom,Dongjak-gu,speed,timeout waiting for SSTP data
+vpn824185996.opengw.net,1819,KR,Korea Republic of,True,dc,13,,3.51,,2841,118.34.210.174,Korea Telecom,Osan,speed,timeout waiting for SSTP data
+vpn841245340.opengw.net,995,KR,Korea Republic of,True,home,16,0.89,3.15,ipv4.download.thinkbroadband.com,3164,39.122.7.119,SK Broadband Co Ltd,Yangsan,speed,timeout waiting for SSTP data
+vpn867088117.opengw.net,1598,KR,Korea Republic of,True,dc,1,0.76,1.38,ipv4.download.thinkbroadband.com,3940,211.213.226.149,SK Broadband Co Ltd,Suseong-gu,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn869477435.opengw.net,1824,KR,Korea Republic of,True,home,1,0.8,3.43,ipv4.download.thinkbroadband.com,2847,121.141.53.251,Korea Telecom,Yangcheon-gu,speed,timeout waiting for SSTP data
+vpn887119329.opengw.net,995,KR,Korea Republic of,True,home,2,,3.31,,2843,115.22.254.25,Korea Telecom,Jinju,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn890053288.opengw.net,995,KR,Korea Republic of,True,home,7,,3.2,,2885,14.45.163.241,Korea Telecom,Yeongju,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn897777296.opengw.net,995,KR,Korea Republic of,True,dc,1,,3.09,,2945,116.33.58.13,LG POWERCOMM,Gwangjin-gu,speed,timeout waiting for SSTP data
+vpn905823011.opengw.net,995,KR,Korea Republic of,True,home,18,,3.49,,2822,121.133.123.215,Korea Telecom,Gangdong-gu,speed,timeout waiting for SSTP data
+vpn910521548.opengw.net,995,KR,Korea Republic of,True,home,3,,3.51,,2836,210.113.75.76,KORNET,Suwon,speed,timeout waiting for SSTP data
+vpn937509069.opengw.net,995,KR,Korea Republic of,True,home,10,,,,2828,222.121.5.240,Korea Telecom,Seongnam-si,speed,timeout waiting for SSTP data
+vpn948322276.opengw.net,1236,KR,Korea Republic of,True,dc,9,0.92,,ipv4.download.thinkbroadband.com,2814,116.123.14.251,SK Broadband Co Ltd,Gangdong-gu,speed,[SSL] record layer failure (_ssl.c:1018)
+vpn953140495.opengw.net,995,KR,Korea Republic of,True,home,16,,3.5,,3249,175.195.189.138,Korea Telecom,Hwaseong-si,speed,timeout waiting for SSTP data
+vpn954065459.opengw.net,1954,KR,Korea Republic of,True,dc,21,0.78,2.8,ipv4.download.thinkbroadband.com,3276,175.113.163.59,SK Broadband Co Ltd,Gwangmyeong,speed,timeout waiting for SSTP data
+vpn965205483.opengw.net,1800,KR,Korea Republic of,True,dc,19,2.12,3.2,ipv4.download.thinkbroadband.com,2913,124.61.46.28,LG POWERCOMM,Seoul,speed,timeout waiting for SSTP data
+vpn976053103.opengw.net,995,KR,Korea Republic of,True,home,2,,3.4,,2916,175.214.227.26,Korea Telecom,Haeundae-gu,speed,timeout waiting for SSTP data
+vpn995426235.opengw.net,995,KR,Korea Republic of,True,home,2,,1.07,,2833,121.166.28.231,Korea Telecom,Suwon,speed,timeout waiting for SSTP data
+vpn-omari.opengw.net,5555,MA,Morocco,True,home,14,,3.08,,2971,154.144.236.31,CASA 4G MarocTelecom,Temara,speed,timeout waiting for SSTP data
+cetsssa.opengw.net,992,MX,Mexico,True,home,22,1.73,3.77,ipv4.download.thinkbroadband.com,1825,187.149.127.131,Uninet S.A. de C.V.,Culiacán,speed,timeout waiting for SSTP data
+opengw.opengw.net,443,RO,Romania,True,dc,24,2.04,3.87,ipv4.download.thinkbroadband.com,2706,187.15.136.110,GSL Networks Pty LTD,Tokyo,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn118423931.opengw.net,1573,RU,Russian Federation,True,,1,,1.69,,3466,,,,info,PPP TCP connect timeout
+vpn168032075.opengw.net,1284,RU,Russian Federation,True,,1,,1.94,,3402,,,,info,PPP TCP connect timeout
+vpn289054570.opengw.net,1297,RU,Russian Federation,True,,2,,1.82,,3035,,,,info,PPP TCP connect timeout
+vpn353146232.opengw.net,1995,RU,Russian Federation,True,,1,,1.71,,3608,,,,info,PPP TCP connect timeout
+vpn485836114.opengw.net,995,RU,Russian Federation,True,,14,,2.08,,3438,,,,info,PPP TCP connect timeout
+vpn978689234.opengw.net,1731,RU,Russian Federation,True,,1,,2.13,,3023,,,,info,PPP TCP connect timeout
+idcrmn2.opengw.net,444,TH,Thailand,True,home,13,0.83,2.13,ipv4.download.thinkbroadband.com,3539,180.183.180.219,Triple T Broadband Public Company Limited,Bangkok,speed,timeout waiting for SSTP data
+jayporeonvpn01.opengw.net,443,TW,Taiwan,True,home,19,0.67,3.3,ipv4.download.thinkbroadband.com,2412,118.166.31.76,"Chunghwa Telecom Co., Ltd.",Taipei,speed,timeout waiting for SSTP data
+vpn924983651.opengw.net,1442,US,United States,True,home,1,2.07,14.6,ipv4.download.thinkbroadband.com,2152,50.39.199.184,Wholesail networks LLC,Hillsboro,speed,timeout waiting for SSTP data
+vpn630618755.opengw.net,1956,VN,Viet Nam,True,home,16,,2.11,,3651,1.54.122.128,FPT Telecom Company,Hanoi,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn693963656.opengw.net,995,VN,Viet Nam,True,home,1,,1.74,,3408,113.23.60.86,FPT Telecom Company,Hanoi,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn894929051.opengw.net,1622,VN,Viet Nam,True,home,11,,2.26,,3323,113.23.97.200,FPT Telecom Company,Dương Nội,speed,timeout waiting for SSTP data
+vpn923730258.opengw.net,1343,VN,Viet Nam,True,home,23,,2.11,,3473,113.22.125.93,FPT Telecom Company,Ho Chi Minh City,speed,[SSL] record layer failure (_ssl.c:2592)
+vpn925698769.opengw.net,1452,VN,Viet Nam,True,home,4,,2.27,,3354,183.80.46.218,Vietnam Internet Network Information Center,Hanoi,speed,timeout waiting for SSTP data
+vpn231298988.opengw.net,1953,AE,United Arab Emirates,False,,0,,,,,,,,tcp,timed out
+vpn750646765.opengw.net,995,AM,Armenia,False,,0,,,,,,,,sstp,node closed connection
+vpn399630262.opengw.net,995,BR,Brazil,False,,0,,,,,,,,tcp,timed out
+vpn239039185.opengw.net,1867,CA,Canada,False,,0,,,,,,,,tcp,timed out
+vpn123938780.opengw.net,1716,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn165851293.opengw.net,1437,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn201165799.opengw.net,1875,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn2070.opengw.net,5555,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn225306834.opengw.net,1935,JP,Japan,False,,0,,,,,,,,tls,_ssl.c:1001: The handshake operation timed out
+vpn273139490.opengw.net,1264,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn413896691.opengw.net,1472,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn464208383.opengw.net,1791,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn492546784.opengw.net,1375,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn493957786.opengw.net,1205,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn501734765.opengw.net,1534,JP,Japan,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn540491747.opengw.net,1811,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn551324053.opengw.net,1877,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn564748125.opengw.net,1491,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn578034962.opengw.net,1702,JP,Japan,False,,0,,,,,,,,sstp,node closed connection
+vpn600793495.opengw.net,1506,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn611260208.opengw.net,1991,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn634109661.opengw.net,1284,JP,Japan,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn636797683.opengw.net,1394,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn662317581.opengw.net,1817,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn671350283.opengw.net,1820,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn687361087.opengw.net,1327,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn718820171.opengw.net,1399,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn737279530.opengw.net,1999,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn778887611.opengw.net,1234,JP,Japan,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn788502559.opengw.net,1908,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn841038279.opengw.net,1287,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn933256250.opengw.net,1448,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn945893058.opengw.net,1242,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn946692838.opengw.net,1819,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn953960224.opengw.net,1223,JP,Japan,False,,0,,,,,,,,sstp,node closed connection
+vpn974181773.opengw.net,1760,JP,Japan,False,,0,,,,,,,,tls,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)
+vpn975550277.opengw.net,1514,JP,Japan,False,,0,,,,,,,,tcp,timed out
+vpn141739010.opengw.net,1386,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn154861873.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn157412522.opengw.net,1821,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn162954440.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn169225991.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn186592927.opengw.net,1589,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn187374041.opengw.net,1665,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn206184617.opengw.net,1559,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn215224546.opengw.net,1858,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn215877831.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn265457647.opengw.net,1676,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn368694634.opengw.net,1545,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn406858285.opengw.net,1816,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn436828976.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn466239180.opengw.net,1922,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn495161118.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn496296722.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn521065574.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn535457630.opengw.net,1757,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn546914302.opengw.net,1338,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn571284347.opengw.net,1399,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn610812005.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn617762926.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn622620051.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn642952860.opengw.net,1882,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn655966354.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn680974608.opengw.net,1796,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn686835063.opengw.net,1636,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn705688819.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn725970097.opengw.net,1815,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn732111900.opengw.net,1917,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn771758574.opengw.net,1452,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn830662962.opengw.net,1758,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn846211901.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn877015796.opengw.net,1251,KR,Korea Republic of,False,,0,,,,,,,,tcp,[Errno 111] Connection refused
+vpn914509666.opengw.net,1327,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn992704617.opengw.net,995,KR,Korea Republic of,False,,0,,,,,,,,tcp,timed out
+vpn127883491.opengw.net,1574,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn197025775.opengw.net,1221,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn418781607.opengw.net,1223,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn507005952.opengw.net,1845,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn536329081.opengw.net,1965,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn590399715.opengw.net,1532,RU,Russian Federation,False,,0,,,,,,,,sstp,node closed connection
+vpn786486028.opengw.net,1550,RU,Russian Federation,False,,0,,,,,,,,sstp,node closed connection
+vpn853980609.opengw.net,1313,RU,Russian Federation,False,,0,,,,,,,,sstp,node closed connection
+vpn907670030.opengw.net,1254,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn941432398.opengw.net,1652,RU,Russian Federation,False,,0,,,,,,,,tcp,timed out
+vpn645348979.opengw.net,1540,TH,Thailand,False,,0,,,,,,,,tcp,timed out
+sausage.opengw.net,443,TW,Taiwan,False,,0,,,,,,,,tcp,timed out
+vpn261703031.opengw.net,1730,VN,Viet Nam,False,,0,,,,,,,,tcp,timed out
+vpn275745773.opengw.net,1509,VN,Viet Nam,False,,0,,,,,,,,tcp,timed out
+vpn560167748.opengw.net,1432,VN,Viet Nam,False,,0,,,,,,,,tcp,timed out
