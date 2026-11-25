@@ -949,8 +949,6 @@ def main():
     stale = [k for k, v in state.items() if v.get('last', '9999') < stale_cut]
     for k in stale:
         del state[k]
-    for k in stale:
-        del state[k]
     save_state(state_path, state)
     log('[state] 记忆已保存: %d 个节点 (存活 streak>=1: %d)' % (
         len(state), sum(1 for v in state.values() if v.get('streak', 0) >= 1)))
